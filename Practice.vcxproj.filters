@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="day07Work.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="example.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="example0100.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="example0401.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="example0403.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="day02Work.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day07Work.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day08Work.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day09Work.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dayWork.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example04.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example06.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example07.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example08.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0200.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0300.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0400.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0401.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0402.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0403.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0404.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0405.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0406.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0500.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0600.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0601.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0602.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0603.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0700.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0701.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0702.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0703.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0704.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0705.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0800.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="note.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
