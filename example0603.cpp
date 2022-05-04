@@ -1,16 +1,16 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 /*
 ==>
-	strcpyÄÜ°ÑstrSrcµÄÄÚÈİ¸´ÖÆµ½strDest£¬ÎªÊ²Ã´»¹Òªchar * ÀàĞÍµÄ·µ»ØÖµ£¿
-		´ğ£ºÎªÁËÊµÏÖÁ´Ê½±í´ïÊ½¡£ÀıÈç int length = strlen( strcpy( strDest, ¡°hello world¡±) );
+	strcpyèƒ½æŠŠstrSrcçš„å†…å®¹å¤åˆ¶åˆ°strDestï¼Œä¸ºä»€ä¹ˆè¿˜è¦char * ç±»å‹çš„è¿”å›å€¼ï¼Ÿ
+		ç­”ï¼šä¸ºäº†å®ç°é“¾å¼è¡¨è¾¾å¼ã€‚ä¾‹å¦‚ int length = strlen( strcpy( strDest, â€œhello worldâ€) );
 <==
 */
 
 
 /*
-	×Ô¶¨ÒåÖ¸Õë·¨×Ö·û´®¿½±´º¯Êı
+	è‡ªå®šä¹‰æŒ‡é’ˆæ³•å­—ç¬¦ä¸²æ‹·è´å‡½æ•°
 */
 char* customPointerStrCpy(char* destination, const char* source)
 {
@@ -20,7 +20,7 @@ char* customPointerStrCpy(char* destination, const char* source)
 }
 
 /*
-	×Ô¶¨ÒåÖ¸Õë·¢×Ö·û´®Á¬½Óº¯Êı
+	è‡ªå®šä¹‰æŒ‡é’ˆå‘å­—ç¬¦ä¸²è¿æ¥å‡½æ•°
 */
 char* customPointerStrCat(char* dst, const char* src)
 {
@@ -34,7 +34,7 @@ char* customPointerStrCat(char* dst, const char* src)
 }
 
 /*
-	×Ô¶¨ÒåÖ¸Õë·¢×Ö·û´®±È½Ïº¯Êı
+	è‡ªå®šä¹‰æŒ‡é’ˆå‘å­—ç¬¦ä¸²æ¯”è¾ƒå‡½æ•°
 */
 void customPointerStrCmp(const char* dst, const char* src)
 {
@@ -42,11 +42,11 @@ void customPointerStrCmp(const char* dst, const char* src)
 	while (*tmp && (*tmp++ == *src++)) {}
 	if (*tmp - *src)
 	{
-		printf("±È½Ï×Ö·û´®²»ÏàµÈ!\n");
+		printf("æ¯”è¾ƒå­—ç¬¦ä¸²ä¸ç›¸ç­‰!\n");
 	}
 	else
 	{
-		printf("±È½Ï×Ö·û´®ÏàµÈ!\n");
+		printf("æ¯”è¾ƒå­—ç¬¦ä¸²ç›¸ç­‰!\n");
 	}
 }
 
@@ -57,13 +57,13 @@ void example0603()
 	char s1[] = "hello C!";
 	char s2[40] = "Hello Java!";
 
-	printf("×Ö·û´®²Ù×÷Ç°:s1=%s,s2=%s\n", s1, s2);
+	printf("å­—ç¬¦ä¸²æ“ä½œå‰:s1=%s,s2=%s\n", s1, s2);
 
 	customPointerStrCpy(s2, s1);
-	printf("×Ö·û´®¿½±´ºó:s1=%s,s2=%s\n", s1, s2);
+	printf("å­—ç¬¦ä¸²æ‹·è´å:s1=%s,s2=%s\n", s1, s2);
 
 	customPointerStrCat(s2, s1);
-	printf("×Ö·û´®Á¬½Óºó:s1=%s,s2=%s\n", s1, s2);
+	printf("å­—ç¬¦ä¸²è¿æ¥å:s1=%s,s2=%s\n", s1, s2);
 
 	customPointerStrCmp(s2, s1);
 	customPointerStrCmp(s1, "hello C!");
@@ -71,6 +71,6 @@ void example0603()
 
 	char s3[40] = "Hello Java0";
 	customPointerStrCat(s3, s1);
-	printf("×Ö·û´®Á¬½Óºó:s1=%s,s2=%s\n", s1, s3);
+	printf("å­—ç¬¦ä¸²è¿æ¥å:s1=%s,s2=%s\n", s1, s3);
 
 }

@@ -1,15 +1,15 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*
 ==>
-	*:��ȡ��ֵַָ�������
-	&:��ȡ��ֵַ����(ָ���������)�ĵ�ֵַ
+	*:获取地址值指向的内容
+	&:获取地址值所在(指针变量本身)的地址值
 
-	ָ�����Ҳ���в�ͬ���͵ĵ�,����:int*,char*
-	ָ�����+n=ָ���ַ��ֵ+ָ��������ֽڴ�С*n
+	指针变量也是有不同类型的的,例如:int*,char*
+	指针变量+n=指针地址的值+指针变量的字节大小*n
 
-	ָ��Ĵ�СΪ8(�޷�������,16λ=2btye,32λ=4byte,64λ=8btye)
-	ָ������Ĵ�С���ݶ���ָ�������(ָ����ָ������ݵ�����)����,��:char* 1,int* 4
+	指针的大小为8(无符号整型,16位=2btye,32位=4byte,64位=8btye)
+	指针变量的大小根据定义指针的类型(指针所指向的内容的类型)决定,例:char* 1,int* 4
 <==
 */
 void example0600()
@@ -19,17 +19,17 @@ void example0600()
 	int i = 78;
 	int* ip = &i;
 
-	//i=78,����i��ֵ
+	//i=78,变量i的值
 	printf("i=%d\n", i);
-	//&i=00000014D7FEF054,����i�ĵ�ֵַ
+	//&i=00000014D7FEF054,变量i的地址值
 	printf("&i=%p\n", &i);
-	//ip=00000014D7FEF054,����i�ĵ�ֵַ
+	//ip=00000014D7FEF054,变量i的地址值
 	printf("ip=%p\n", ip);
-	//&ip=00000014D7FEF078,ָ�����ip�ĵ�ֵַ
+	//&ip=00000014D7FEF078,指针变量ip的地址值
 	printf("&ip=%p\n", &ip);
-	//*ip=78,ָ�����ip��ֵ
+	//*ip=78,指针变量ip的值
 	printf("*ip=%d\n", *ip);
-	//&*ip=00000014D7FEF054,ָ�����ip��ֵ(����i)�ĵ�ֵַ
+	//&*ip=00000014D7FEF054,指针变量ip的值(变量i)的地址值
 	printf("&*ip=%p\n", &*ip);
 
 	//size(i)=4,sizeof(ip)=8,sizeof(*ip)=4
@@ -39,25 +39,25 @@ void example0600()
 	//00000014D7FEF05C=00000014D7FEF054+sizeod(int 4)*n
 	printf("i+1=%d,ip+2=%p\n", i + 1, ip + 2);
 
-	//"int *"���͵ĵ�ֵ�������ڳ�ʼ��"char *"���͵�ʵ��
+	//"int *"类型的的值不能用于初始化"char *"类型的实体
 	//char* cp = &i;
 
-	//c1��ָ�����(char *),c2��char����
+	//c1是指针变量(char *),c2是char变量
 	char* c1, c2;
-	//c3��ָ�����,c4��ָ�����
+	//c3是指针变量,c4是指针变量
 	char* c3, * c4;
 	char c5 = 65;
 	char c6 = 66;
 
 	c1 = &c5;
-	//���ܽ�"char *"���͵�ֵ���䵽"char"���͵�ʵ��
+	//不能将"char *"类型的值分配到"char"类型的实体
 	//c2 = &c5;
 	c2 = c5;
 	c3 = &c5;
-	//ʹ��δ��ʼ�����ڴ�"c4",��Ҫ��ָ���ڴ��ַ,Ȼ����ܸ�ֵ
+	//使用未初始化的内存"c4",需要先指向内存地址,然后才能赋值
 	//*c4 = c5;
 	c4 = &c5;
-	//������c5��ֵ,����ָ��c5ָ���ֵ���ı�
+	//更改了c5的值,所有指向c5指针的值都改变
 	*c4 = c6;
 
 	//c1=000000CAEEEFF6B4

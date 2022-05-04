@@ -1,9 +1,9 @@
-#include <stdio.h>
+О╩©#include <stdio.h>
 
 /*
 	==>
-		include <>ё╨╠Йв╪╨╞йЩ©Бжпя╟ур
-		include ""ё╨╣╠г╟д©б╪жпя╟ур
+		include <>О╪ Ф═┤Е┤├Е┤╫Ф∙╟Е╨⌠Д╦╜Е╞╩Ф┴╬
+		include ""О╪ Е╫⌠Е┴█Г⌡╝Е╫∙Д╦╜Е╞╩Ф┴╬
 	<==
 */
 #include "example0401.h"

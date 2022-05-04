@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 
 void work0901()
 {
-	printf("¡ı¡ı¡ı¡ı¡ıday09Work.cpp ==> work0901()¡ı¡ı¡ı¡ı¡ı\n");
+	printf("â†“â†“â†“â†“â†“day09Work.cpp ==> work0901()â†“â†“â†“â†“â†“\n");
 
 	//int a[10] = { [5] = 1,2,3,4,5 };
 
@@ -11,7 +11,7 @@ void work0901()
 	int* p;
 	p = ds;
 
-	//ÕâÀïÅĞ¶ÏÌõ¼ş²»ÄÜÊ¹ÓÃp(ÎŞ·¨½áÊø)ºÍ*p(intÀàĞÍµÄ0±íÊ¾½áÎ²,µ½0½áÊø)
+	//è¿™é‡Œåˆ¤æ–­æ¡ä»¶ä¸èƒ½ä½¿ç”¨p(æ— æ³•ç»“æŸ)å’Œ*p(intç±»å‹çš„0è¡¨ç¤ºç»“å°¾,åˆ°0ç»“æŸ)
 	while (p - ds < _countof(ds))
 		printf("%d ", *p++);
 }

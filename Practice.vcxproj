@@ -48,6 +48,7 @@
     <ClCompile Include="example0406.cpp" />
     <ClCompile Include="example05.cpp" />
     <ClCompile Include="example0500.cpp" />
+    <ClCompile Include="example0501.cpp" />
     <ClCompile Include="example06.cpp" />
     <ClCompile Include="example0600.cpp" />
     <ClCompile Include="example0601.cpp" />
