@@ -149,6 +149,12 @@
     <ClCompile Include="example0801.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="example09.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example0900.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="note.txt">
