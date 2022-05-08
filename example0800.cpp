@@ -12,9 +12,9 @@
 	fopen：打开并获取文件流。fclose：关闭打开的文件流。
 	fread：从文件中读取内容。fwrite：往文件中写入内容。
 	fseek：将文件位置指针移动到指定位置，第二个参数为偏移量，第三个参数为偏移起点。
-		SEEK_SET：文件头
-		SEEK_CUR：当前位置
-		SEEK_END：文件尾
+		SEEK_SET(0)：文件头
+		SEEK_CUR(1)：当前位置
+		SEEK_END(2)：文件尾
 	ftell：将文件位置指针移动到文件头。
 	malloc：在内存中开辟空间。free：回收内存空间。
 <==
@@ -32,7 +32,7 @@ void readFile(const char* fileName)
 		//获取文件位置指针的当前位置相对于文件首的偏移字节数
 		fileSize = ftell(pFile);
 		//将文件位置指针重新移动到头部
-		//fseek(pFile, 0, SEEK_SET);
+		//fseek(pFile, 0, 0);
 		rewind(pFile);
 
 		if (pFile)

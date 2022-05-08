@@ -14,7 +14,7 @@ void example0300()
 	char sName[20];
 	printf("请输入一个员工的工号、姓名【以空格间隔】：");
 	// 数值类型还是需要加&的
-	// 对于sName来说，字符类型&加不加都不影响，但是还是加吧
+	// 对于sName来说，字符类型&加不加都不影响，但是还是加吧,sName和&sName在内存中是同一个地址值
 	scanf_s("%d %s", &nNumb, &sName, 20);
 
 	printf("你输入的工号：%d \n", nNumb);

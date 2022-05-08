@@ -11,6 +11,7 @@
 
 void example04()
 {
+	puts("");
 	int example0400();
 	example0400();
 
