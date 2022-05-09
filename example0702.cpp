@@ -1,12 +1,12 @@
-ï»¿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <string.h>
 
 /*
 ==>
-	é™æ€å±€éƒ¨å˜é‡åœ¨é™æ€å­˜å‚¨åŒºåˆ†é…ç©ºé—´,ç¨‹åºä»…åˆ†é…ä¸€æ¬¡å†…å­˜;å‡½æ•°è¿”å›žåŽ,è¯¥é™æ€å±€éƒ¨å˜é‡å¹¶ä¸ä¼šæ¶ˆå¤±.
-	é™æ€å±€éƒ¨å˜é‡å…·æœ‰å±€éƒ¨ä½œç”¨åŸŸ,åªå¯¹å®šä¹‰è‡ªå·±çš„å‡½æ•°ä½“å§‹ç»ˆå¯è§,å‡½æ•°æŽ¨å‡ºåŽ,å˜é‡è¿˜å­˜åœ¨,ä½†ä¸å¯ç”¨.
+	¾²Ì¬¾Ö²¿±äÁ¿ÔÚ¾²Ì¬´æ´¢Çø·ÖÅä¿Õ¼ä,³ÌÐò½ö·ÖÅäÒ»´ÎÄÚ´æ;º¯Êý·µ»Øºó,¸Ã¾²Ì¬¾Ö²¿±äÁ¿²¢²»»áÏûÊ§.
+	¾²Ì¬¾Ö²¿±äÁ¿¾ßÓÐ¾Ö²¿×÷ÓÃÓò,Ö»¶Ô¶¨Òå×Ô¼ºµÄº¯ÊýÌåÊ¼ÖÕ¿É¼û,º¯ÊýÍÆ³öºó,±äÁ¿»¹´æÔÚ,µ«²»¿ÉÓÃ.
 <==
 */
 
@@ -24,7 +24,7 @@ char* __strtok_r(char* s, const char* delim, char** save_ptr)
 	}
 	
 	/* Scan leading delimiters.  */
-	//æ£€ç´¢å­—ç¬¦ä¸² str1 ä¸­ç¬¬ä¸€ä¸ªä¸åœ¨å­—ç¬¦ä¸² str2 ä¸­å‡ºçŽ°çš„å­—ç¬¦ä¸‹æ ‡ã€‚2
+	//¼ìË÷×Ö·û´® str1 ÖÐµÚÒ»¸ö²»ÔÚ×Ö·û´® str2 ÖÐ³öÏÖµÄ×Ö·ûÏÂ±ê¡£2
 	unsigned int i = strspn(s, delim);
 	s += i;
 	if (*s == '\0')
@@ -34,7 +34,7 @@ char* __strtok_r(char* s, const char* delim, char** save_ptr)
 	}
 	
 	/* Find the end of the token.  */
-	//æ£€ç´¢å­—ç¬¦ä¸² str1 å¼€å¤´è¿žç»­æœ‰å‡ ä¸ªå­—ç¬¦éƒ½ä¸å«å­—ç¬¦ä¸² str2 ä¸­çš„å­—ç¬¦ã€‚4
+	//¼ìË÷×Ö·û´® str1 ¿ªÍ·Á¬ÐøÓÐ¼¸¸ö×Ö·û¶¼²»º¬×Ö·û´® str2 ÖÐµÄ×Ö·û¡£4
 	i = strcspn(s, delim);
 	end = s + i;
 	if (*end == '\0')
@@ -51,7 +51,7 @@ char* __strtok_r(char* s, const char* delim, char** save_ptr)
 
 char* _strtok(char* s, const char* delim)
 {
-	//å®šä¹‰é™æ€å±€éƒ¨å˜é‡ä¿å­˜åˆ†å‰²åŽçš„å‰©ä½™å­—ç¬¦ä¸²
+	//¶¨Òå¾²Ì¬¾Ö²¿±äÁ¿±£´æ·Ö¸îºóµÄÊ£Óà×Ö·û´®
 	static char* olds;
 	return __strtok_r(s, delim, &olds);
 }
@@ -67,7 +67,7 @@ void example0702()
 	while (pch != NULL)
 	{
 		printf("%s\n", pch);
-		//åœ¨strtokæ–¹æ³•ä¸­å®šä¹‰äº†é™æ€å±€éƒ¨å˜é‡ä¿å­˜åˆ†å‰²åŽçš„å‰©ä½™å­—ç¬¦ä¸²,æ‰€ä»¥arg1åªéœ€è¦ä¼ ä¸€æ¬¡,åŽç»­ä¼ NULL
+		//ÔÚstrtok·½·¨ÖÐ¶¨ÒåÁË¾²Ì¬¾Ö²¿±äÁ¿±£´æ·Ö¸îºóµÄÊ£Óà×Ö·û´®,ËùÒÔarg1Ö»ÐèÒª´«Ò»´Î,ºóÐø´«NULL
 		pch = _strtok(NULL, " ,.-");
 	}
 }

@@ -1,15 +1,15 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 
 /*
 	==>
-		åœ¨ä¸€ä¸ªcppæ–‡ä»¶ä¸­è°ƒç”¨å¦ä¸€ä¸ªcppæ–‡ä»¶ä¸­çš„æ–¹æ³•ï¼šå‡½æ•°è°ƒç”¨å£°æ˜Žæ³•
-			åœ¨ç¬¬12è¡Œå£°æ˜Žå‡½æ•°åŽï¼Œå°±å¯ä»¥åœ¨åŽé¢è°ƒç”¨è¯¥å‡½æ•°äº†
+		ÔÚÒ»¸öcppÎÄ¼þÖÐµ÷ÓÃÁíÒ»¸öcppÎÄ¼þÖÐµÄ·½·¨£ºº¯Êýµ÷ÓÃÉùÃ÷·¨
+			ÔÚµÚ12ÐÐÉùÃ÷º¯Êýºó£¬¾Í¿ÉÒÔÔÚºóÃæµ÷ÓÃ¸Ãº¯ÊýÁË
 	<==
 */
 void example02()
 {
 	puts("");
-	printf("â†“â†“â†“â†“â†“example0200.cpp ==> example0200(int i)â†“â†“â†“â†“â†“\n");
+	printf("¡ý¡ý¡ý¡ý¡ýexample0200.cpp ==> example0200(int i)¡ý¡ý¡ý¡ý¡ý\n");
 	int example0200(int i);
 	example0200(2);
 }

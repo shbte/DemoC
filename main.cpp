@@ -1,4 +1,4 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 
 #include "example.h"
 
@@ -7,7 +7,7 @@ void callWork() {
 	dayWork();
 }
 
-// ä»ä¸Šå¾€ä¸‹åˆ¶ï¼Œå¦‚æœcallExampleåœ¨mainä¸‹é¢ï¼Œé‚£ä¹ˆcallExampleæ–¹æ³•å°†æ‰¾ä¸åˆ°è€ŒæŠ¥é”™
+// ´ÓÉÏÍùÏÂÖÆ£¬Èç¹ûcallExampleÔÚmainÏÂÃæ£¬ÄÇÃ´callExample·½·¨½«ÕÒ²»µ½¶ø±¨´í
 void callExample()
 {
 	example();
@@ -15,7 +15,7 @@ void callExample()
 
 int main() {
 
-	// putså’Œprintfçš„åŒºåˆ«ï¼šputsä¼šè‡ªåŠ¨æ¢è¡Œï¼Œåªèƒ½è¾“å‡ºå­—ç¬¦æ²¡æœ‰æ ¼å¼æ§åˆ¶ã€‚
+	// putsºÍprintfµÄÇø±ğ£ºputs»á×Ô¶¯»»ĞĞ£¬Ö»ÄÜÊä³ö×Ö·ûÃ»ÓĞ¸ñÊ½¿ØÖÆ¡£
 	puts("Hello C!");
 
 	//callWork();

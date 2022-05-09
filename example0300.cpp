@@ -1,9 +1,9 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 
 /*
 	==>
-		1ã€scanf_s()çš„ä½¿ç”¨æ–¹æ³•ï¼Œéœ€è¦åœ¨å˜é‡åŽåŠ å˜é‡å¤§å°(ä½æ•°)ã€‚
-		2ã€åŸºæœ¬æ•°æ®ç±»åž‹åœ¨scanfè¾“å…¥æ—¶ï¼Œéƒ½åº”è¯¥ç”¨åœ°å€&ï¼Œå­—ç¬¦å˜é‡å¯ä»¥ä¸åŠ ï¼Œä½†ä¸ºäº†ä¸¥è°¨è¿˜æ˜¯åŠ &ã€‚
+		1¡¢scanf_s()µÄÊ¹ÓÃ·½·¨£¬ÐèÒªÔÚ±äÁ¿ºó¼Ó±äÁ¿´óÐ¡(Î»Êý)¡£
+		2¡¢»ù±¾Êý¾ÝÀàÐÍÔÚscanfÊäÈëÊ±£¬¶¼Ó¦¸ÃÓÃµØÖ·&£¬×Ö·û±äÁ¿¿ÉÒÔ²»¼Ó£¬µ«ÎªÁËÑÏ½÷»¹ÊÇ¼Ó&¡£
 	<==
 */
 void example0300()
@@ -12,11 +12,11 @@ void example0300()
 
 	int nNumb = 15;
 	char sName[20];
-	printf("è¯·è¾“å…¥ä¸€ä¸ªå‘˜å·¥çš„å·¥å·ã€å§“åã€ä»¥ç©ºæ ¼é—´éš”ã€‘ï¼š");
-	// æ•°å€¼ç±»åž‹è¿˜æ˜¯éœ€è¦åŠ &çš„
-	// å¯¹äºŽsNameæ¥è¯´ï¼Œå­—ç¬¦ç±»åž‹&åŠ ä¸åŠ éƒ½ä¸å½±å“ï¼Œä½†æ˜¯è¿˜æ˜¯åŠ å§,sNameå’Œ&sNameåœ¨å†…å­˜ä¸­æ˜¯åŒä¸€ä¸ªåœ°å€å€¼
+	printf("ÇëÊäÈëÒ»¸öÔ±¹¤µÄ¹¤ºÅ¡¢ÐÕÃû¡¾ÒÔ¿Õ¸ñ¼ä¸ô¡¿£º");
+	// ÊýÖµÀàÐÍ»¹ÊÇÐèÒª¼Ó&µÄ
+	// ¶ÔÓÚsNameÀ´Ëµ£¬×Ö·ûÀàÐÍ&¼Ó²»¼Ó¶¼²»Ó°Ïì£¬µ«ÊÇ»¹ÊÇ¼Ó°É,sNameºÍ&sNameÔÚÄÚ´æÖÐÊÇÍ¬Ò»¸öµØÖ·Öµ
 	scanf_s("%d %s", &nNumb, &sName, 20);
 
-	printf("ä½ è¾“å…¥çš„å·¥å·ï¼š%d \n", nNumb);
-	printf("ä½ è¾“å…¥çš„å§“åï¼š%s \n", sName);
+	printf("ÄãÊäÈëµÄ¹¤ºÅ£º%d \n", nNumb);
+	printf("ÄãÊäÈëµÄÐÕÃû£º%s \n", sName);
 }

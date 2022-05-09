@@ -1,7 +1,7 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 /*
 	==>
-		打印类型变量的大小(字节数)：sizeof(类型变量)
+		��ӡ���ͱ����Ĵ�С(�ֽ���)��sizeof(���ͱ���)
 	<==
 */
 void example0404()
@@ -17,5 +17,5 @@ void example0404()
 	printf("c=%c,n=%d,f=%f,d=%0.20lf\n", ch + 5, n, f, d);
 	printf("sizeof(ch)=%d, sizeof(n)=%d, sizeof(f)=%d, sizeof(d)=%d\n",
 	(int)sizeof(ch), (int)sizeof(n), (int)sizeof(f), (int)sizeof(d));
-	//最后一行是打印所有类型变量的大小（字节数）
+	//���һ���Ǵ�ӡ�������ͱ����Ĵ�С���ֽ�����
 }

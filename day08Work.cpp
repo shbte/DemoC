@@ -1,12 +1,12 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 void work0801()
 {
-	printf("â†“â†“â†“â†“â†“day08Work.cpp ==> work0801()â†“â†“â†“â†“â†“\n");
+	printf("¡ý¡ý¡ý¡ý¡ýday08Work.cpp ==> work0801()¡ý¡ý¡ý¡ý¡ý\n");
 
 	/*
-	3ã€æ‰“å°7åˆ—13è¡Œçš„è±å½¢ä¸¤è§’
+	3¡¢´òÓ¡7ÁÐ13ÐÐµÄÁâÐÎÁ½½Ç
 	* 
 	* * 
 	* * *
@@ -23,12 +23,12 @@ void work0801()
 	*/
 
 	int i = 0;
-	//è¡Œæ‰“å°
+	//ÐÐ´òÓ¡
 	for (i; i < 13; i++)
 	{
 		if (i < 7)
 		{
-			//ä¸Š7è¡Œæ‰“å°(0~7)
+			//ÉÏ7ÐÐ´òÓ¡(0~7)
 			int j = 0;
 			for (j; j <= i; j++)
 			{
@@ -38,7 +38,7 @@ void work0801()
 		} 
 		else 
 		{
-			//ä¸‹6è¡Œæ‰“å°(7~12)
+			//ÏÂ6ÐÐ´òÓ¡(7~12)
 			int j = 13 - i;
 			for (j; j > 0; j--)
 			{
@@ -52,10 +52,10 @@ void work0801()
 
 void work0802()
 {
-	printf("â†“â†“â†“â†“â†“day08Work.cpp ==> work0802()â†“â†“â†“â†“â†“\n");
+	printf("¡ý¡ý¡ý¡ý¡ýday08Work.cpp ==> work0802()¡ý¡ý¡ý¡ý¡ý\n");
 
 	/*
-	4ã€æ‰“å°13åˆ—7è¡Œçš„è±å½¢ä¸¤è§’
+	4¡¢´òÓ¡13ÁÐ7ÐÐµÄÁâÐÎÁ½½Ç
 	0 1 2 3 4 5 6 7 8 9 A B C D
 	              * 
 	            * * * 
@@ -67,26 +67,26 @@ void work0802()
 	*/
 
 	int i = 0;
-	//è¡Œæ‰“å°
+	//ÐÐ´òÓ¡
 	for (i; i < 7; i++)
 	{
 		int j = 0;
-		//åˆ—æ‰“å°
+		//ÁÐ´òÓ¡
 		for (j; j < 14; j++)
 		{
 			if (7 - i > j)
 			{
-				//å·¦ç©ºæ ¼æ‰“å°
+				//×ó¿Õ¸ñ´òÓ¡
 				printf("  ");
 			}
 			else if (14 - j < 7 - i)
 			{
-				//å³ç©ºæ ¼æ‰“å°
+				//ÓÒ¿Õ¸ñ´òÓ¡
 				printf("  ");
 			}
 			else 
 			{
-				//ä¸­é—´*æ‰“å°
+				//ÖÐ¼ä*´òÓ¡
 				printf("* ");
 			}
 		}
@@ -96,10 +96,10 @@ void work0802()
 
 void work0803()
 {
-	printf("â†“â†“â†“â†“â†“day08Work.cpp ==> work0803()â†“â†“â†“â†“â†“\n");
+	printf("¡ý¡ý¡ý¡ý¡ýday08Work.cpp ==> work0803()¡ý¡ý¡ý¡ý¡ý\n");
 
 	/*
-	5ã€æ‰“å°13è¡Œ13åˆ—å®Œæ•´çš„è±å½¢ã€‚
+	5¡¢´òÓ¡13ÐÐ13ÁÐÍêÕûµÄÁâÐÎ¡£
 	 01 2 3 4 5 6 7 8 9 A B C D
 	0             *
 	1           * * * 
@@ -117,51 +117,51 @@ void work0803()
 	*/
 
 	int i = 0;
-	//ä¸Š7è¡Œæ‰“å°
+	//ÉÏ7ÐÐ´òÓ¡
 	for (i; i < 7; i++)
 	{
 		int j = 0;
-		//åˆ—æ‰“å°
+		//ÁÐ´òÓ¡
 		for (j; j < 14; j++)
 		{
 			if (7 - i > j)
 			{
-				//å·¦ç©ºæ ¼æ‰“å°
+				//×ó¿Õ¸ñ´òÓ¡
 				printf("  ");
 			}
 			else if (14 - j < 7 - i)
 			{
-				//å³ç©ºæ ¼æ‰“å°
+				//ÓÒ¿Õ¸ñ´òÓ¡
 				printf("  ");
 			}
 			else
 			{
-				//ä¸­é—´*æ‰“å°
+				//ÖÐ¼ä*´òÓ¡
 				printf("* ");
 			}
 		}
 		puts("");
 	}
-	//ä¸‹6è¡Œæ‰“å°
+	//ÏÂ6ÐÐ´òÓ¡
 	for (i; i < 13; i++)
 	{
 		int j = 0;
-		//åˆ—æ‰“å°
+		//ÁÐ´òÓ¡
 		for (j; j < 14; j++)
 		{
 			if (i - 5 > j)
 			{
-				//å·¦ç©ºæ ¼æ‰“å°
+				//×ó¿Õ¸ñ´òÓ¡
 				printf("  ");
 			}
 			else if (14 - j < i - 5)
 			{
-				//å³ç©ºæ ¼æ‰“å°
+				//ÓÒ¿Õ¸ñ´òÓ¡
 				printf("  ");
 			}
 			else
 			{
-				//ä¸­é—´*æ‰“å°
+				//ÖÐ¼ä*´òÓ¡
 				printf("* ");
 			}
 		}
@@ -172,7 +172,7 @@ void work0803()
 void work0804()
 {
 	puts("");
-	printf("â†“â†“â†“â†“â†“day08Work.cpp ==> work0804()â†“â†“â†“â†“â†“\n");
+	printf("¡ý¡ý¡ý¡ý¡ýday08Work.cpp ==> work0804()¡ý¡ý¡ý¡ý¡ý\n");
 
 	int n = 1;
 	while (((int)pow(2, n) % 7 == 0))
@@ -188,7 +188,7 @@ void work0804()
 void work0805()
 {
 	puts("");
-	printf("â†“â†“â†“â†“â†“day08Work.cpp ==> work0805()â†“â†“â†“â†“â†“\n");
+	printf("¡ý¡ý¡ý¡ý¡ýday08Work.cpp ==> work0805()¡ý¡ý¡ý¡ý¡ý\n");
 
 	char c = 1;
 	short s = 1;

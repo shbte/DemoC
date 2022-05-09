@@ -1,8 +1,8 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
 /*
 	==>
-		printf打印数据地址时，使用的是%p和&
+		printf��ӡ���ݵ�ַʱ��ʹ�õ���%p��&
 	<==
 */
 int example0400()
@@ -18,15 +18,15 @@ int example0400()
 	int a1 = '\n';
 	float _f1 = 677.124568;
 
-	// a1=10,a1的地址是:0xd49bf4e4，为什么才打印后8位？
-	printf("a1=%d,a1的地址是:0x%x\n", a1, (int) & a1);
-	// _f1=677.124573,_f1的地址是:0xd49bf504，为什么才打印后8位？
-	printf("_f1=%f,_f1的地址是:0x%x\n", _f1, (int) & _f1);
+	// a1=10,a1�ĵ�ַ��:0xd49bf4e4��Ϊʲô�Ŵ�ӡ��8λ��
+	printf("a1=%d,a1�ĵ�ַ��:0x%x\n", a1, (int) & a1);
+	// _f1=677.124573,_f1�ĵ�ַ��:0xd49bf504��Ϊʲô�Ŵ�ӡ��8λ��
+	printf("_f1=%f,_f1�ĵ�ַ��:0x%x\n", _f1, (int) & _f1);
 
-	// a1=10,a1的地址是:0x00000062D49BF4E4
-	printf("a1=%d,a1的地址是:0x%p\n", a1, &a1);
-	// _f1 = 677.124573, _f1的地址是:0x00000062D49BF504
-	printf("_f1=%f,_f1的地址是:0x%p\n", _f1, &_f1);
+	// a1=10,a1�ĵ�ַ��:0x00000062D49BF4E4
+	printf("a1=%d,a1�ĵ�ַ��:0x%p\n", a1, &a1);
+	// _f1 = 677.124573, _f1�ĵ�ַ��:0x00000062D49BF504
+	printf("_f1=%f,_f1�ĵ�ַ��:0x%p\n", _f1, &_f1);
 
 	return 0;
 }

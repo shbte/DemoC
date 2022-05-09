@@ -1,46 +1,46 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 
 /*
-	Cè¯­è¨€æ•°æ®ç±»åž‹ï¼šåŸºæœ¬ç±»åž‹ã€ç»“æž„ç±»åž‹ã€æŒ‡é’ˆç±»åž‹ã€ç©ºç±»åž‹(void)
-		åŸºæœ¬ç±»åž‹ï¼šæ•°å€¼ç±»åž‹ã€å­—ç¬¦ç±»åž‹
-			æ•°å€¼ç±»åž‹ï¼šæ•´åž‹(çŸ­æ•´åž‹shortã€æ•´å½¢intã€é•¿æ•´åž‹long)ã€æµ®ç‚¹åž‹(å•ç²¾åº¦åž‹floatã€åŒç²¾åº¦åž‹double)
-			å­—ç¬¦ç±»åž‹ï¼šchar
-		ç»“æž„ç±»åž‹ï¼šæ•°ç»„ã€ç»“æž„ä½“(struct)ã€å…±ç”¨ä½“(union)ã€æžšä¸¾(enum)
+	CÓïÑÔÊý¾ÝÀàÐÍ£º»ù±¾ÀàÐÍ¡¢½á¹¹ÀàÐÍ¡¢Ö¸ÕëÀàÐÍ¡¢¿ÕÀàÐÍ(void)
+		»ù±¾ÀàÐÍ£ºÊýÖµÀàÐÍ¡¢×Ö·ûÀàÐÍ
+			ÊýÖµÀàÐÍ£ºÕûÐÍ(¶ÌÕûÐÍshort¡¢ÕûÐÎint¡¢³¤ÕûÐÍlong)¡¢¸¡µãÐÍ(µ¥¾«¶ÈÐÍfloat¡¢Ë«¾«¶ÈÐÍdouble)
+			×Ö·ûÀàÐÍ£ºchar
+		½á¹¹ÀàÐÍ£ºÊý×é¡¢½á¹¹Ìå(struct)¡¢¹²ÓÃÌå(union)¡¢Ã¶¾Ù(enum)
 
 	==>
-		å•ä¸ªå­—ç¬¦ç±»åž‹æ— æ³•åœ¨æŽ§åˆ¶å°è¾“å…¥ï¼Œå› ä¸ºæ¢è¡Œæ—¶"\n"ä¼šè¿›è¡Œè¦†ç›–è¾“å…¥ã€‚
+		µ¥¸ö×Ö·ûÀàÐÍÎÞ·¨ÔÚ¿ØÖÆÌ¨ÊäÈë£¬ÒòÎª»»ÐÐÊ±"\n"»á½øÐÐ¸²¸ÇÊäÈë¡£
 	<==
 */
 void example0100()
 {
 	printf("=====example0100()=====\n");
 
-	// åŸºæœ¬ç±»åž‹ï¼šæ•°å€¼ç±»åž‹ï¼ˆæ•´åž‹ã€æµ®ç‚¹åž‹ï¼‰ã€å­—ç¬¦ç±»åž‹
-	// æ•´åž‹ï¼šçŸ­æ•´åž‹ã€æ•´åž‹ã€é•¿æ•´åž‹
+	// »ù±¾ÀàÐÍ£ºÊýÖµÀàÐÍ£¨ÕûÐÍ¡¢¸¡µãÐÍ£©¡¢×Ö·ûÀàÐÍ
+	// ÕûÐÍ£º¶ÌÕûÐÍ¡¢ÕûÐÍ¡¢³¤ÕûÐÍ
 	short a = 001;
 	int b = 002;
 	long c = 003;
-	// æµ®ç‚¹åž‹ï¼šå•ç²¾åº¦åž‹ã€åŒç²¾åº¦åž‹
+	// ¸¡µãÐÍ£ºµ¥¾«¶ÈÐÍ¡¢Ë«¾«¶ÈÐÍ
 	float d = 004.01f;
 	double e = 005.020l;
-	// å­—ç¬¦ç±»åž‹
+	// ×Ö·ûÀàÐÍ
 	char f = 'a';
 
-	// scanfå‡½æ•°:è¾“å…¥å‡½æ•°
-	printf("è¾“å…¥çŸ­æ•´åž‹ï¼š");
+	// scanfº¯Êý:ÊäÈëº¯Êý
+	printf("ÊäÈë¶ÌÕûÐÍ£º");
 	scanf_s("%hd", &a);
-	printf("è¾“å…¥æ•´åž‹ï¼š");
+	printf("ÊäÈëÕûÐÍ£º");
 	scanf_s("%d", &b);
-	printf("è¾“å…¥é•¿æ•´åž‹ï¼š");
+	printf("ÊäÈë³¤ÕûÐÍ£º");
 	scanf_s("%ld", &c);
-	printf("è¾“å…¥å•ç²¾åº¦åž‹ï¼š");
+	printf("ÊäÈëµ¥¾«¶ÈÐÍ£º");
 	scanf_s("%f", &d);
-	printf("è¾“å…¥åŒç²¾åº¦åž‹ï¼š");
+	printf("ÊäÈëË«¾«¶ÈÐÍ£º");
 	scanf_s("%lf", &e);
-	//printf("è¾“å…¥å­—ç¬¦ç±»åž‹ï¼š");
-	// æ¢è¡Œæ—¶"\n"ä¼šæ›¿æ¢è¾“å…¥çš„å†…å®¹ï¼ŒåŸºæœ¬æ— æ³•åœ¨æŽ§åˆ¶å°è¾“å…¥charç±»åž‹æ•°æ®(éžæ•°ç»„charç±»åž‹)
+	//printf("ÊäÈë×Ö·ûÀàÐÍ£º");
+	// »»ÐÐÊ±"\n"»áÌæ»»ÊäÈëµÄÄÚÈÝ£¬»ù±¾ÎÞ·¨ÔÚ¿ØÖÆÌ¨ÊäÈëcharÀàÐÍÊý¾Ý(·ÇÊý×écharÀàÐÍ)
 	//scanf_s("%c", &f, 1);
 	
 
-	printf("çŸ­æ•´åž‹:%hdï¼Œæ•´åž‹:%dï¼Œé•¿æ•´åž‹:%ldï¼Œå•ç²¾åº¦åž‹:%gï¼ŒåŒç²¾åº¦åž‹:%gï¼Œå­—ç¬¦ç±»åž‹ï¼š%c\n", a, b, c, d, e, f);
+	printf("¶ÌÕûÐÍ:%hd£¬ÕûÐÍ:%d£¬³¤ÕûÐÍ:%ld£¬µ¥¾«¶ÈÐÍ:%g£¬Ë«¾«¶ÈÐÍ:%g£¬×Ö·ûÀàÐÍ£º%c\n", a, b, c, d, e, f);
 }

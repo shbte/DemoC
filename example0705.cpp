@@ -1,72 +1,72 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /*
 ==>
-	ç»“æ„ä½“æŒ‡é’ˆåšå½¢å‚æ—¶:pä¿®æ”¹æ— æ•ˆ,*p(p[i])ä¿®æ”¹æœ‰æ•ˆ
+	½á¹¹ÌåÖ¸Õë×öĞÎ²ÎÊ±:pĞŞ¸ÄÎŞĞ§,*p(p[i])ĞŞ¸ÄÓĞĞ§
 <==
 */
 
 typedef struct _SWork
 {
-	int nNumb;			//å·¥å·
-	char sName[20];		//å§“å
-	float fSala;			//å·¥èµ„
+	int nNumb;			//¹¤ºÅ
+	char sName[20];		//ĞÕÃû
+	float fSala;			//¹¤×Ê
 }SWork;
 
-//ç»“æ„ä½“åšå‚æ•°
+//½á¹¹Ìå×ö²ÎÊı
 void intSWork(SWork w)
 {
-	SWork w2 = { 1001, "å¼ ä¸‰", 700.78 };
+	SWork w2 = { 1001, "ÕÅÈı", 700.78 };
 	w = w2;
 
-	//intSWork ==> 1001,å¼ ä¸‰,700.780029
+	//intSWork ==> 1001,ÕÅÈı,700.780029
 	printf("intSWork ==> %d,%s,%f\n", w2.nNumb, w2.sName, w2.fSala);
 }
-//ç»“æ„ä½“åšå‚æ•°
+//½á¹¹Ìå×ö²ÎÊı
 void outSWork(SWork w)
 {
 	//outSWork ==> 0,,0.000000
 	printf("outSWork ==> %d,%s,%f\n", w.nNumb, w.sName, w.fSala);
 }
 
-//ç»“æ„ä½“æŒ‡é’ˆåšå‚æ•°
+//½á¹¹ÌåÖ¸Õë×ö²ÎÊı
 void intSWorkPointer1(SWork* wp)
 {
-	SWork w2 = { 1002, "æå››", 990.98 };
+	SWork w2 = { 1002, "ÀîËÄ", 990.98 };
 	*wp = w2;
 
-	//intSWorkPointer1 ==> 1002,æå››,990.979980 ä¿®æ”¹æœ‰æ•ˆ
+	//intSWorkPointer1 ==> 1002,ÀîËÄ,990.979980 ĞŞ¸ÄÓĞĞ§
 	printf("intSWorkPointer1 ==> %d,%s,%f\n", (*wp).nNumb, (*wp).sName, (*wp).fSala);
 }
 void intSWorkPointer2(SWork* wp)
 {
-	SWork w2 = { 1003, "ç‹äº”", 860.48 };
+	SWork w2 = { 1003, "ÍõÎå", 860.48 };
 	wp = &w2;
 
-	//intSWorkPointer2 ==> 1003,ç‹äº”,860.479980 ä¿®æ”¹æ— æ•ˆ
+	//intSWorkPointer2 ==> 1003,ÍõÎå,860.479980 ĞŞ¸ÄÎŞĞ§
 	printf("intSWorkPointer2 ==> %d,%s,%f\n", wp->nNumb, wp->sName, wp->fSala);
 }
 void outSWorkPointer(SWork* wp)
 {
-	//outSWorkPointer ==> 1002,æå››,990.979980
+	//outSWorkPointer ==> 1002,ÀîËÄ,990.979980
 	printf("outSWorkPointer ==> %d,%s,%f\n", (*wp).nNumb, (*wp).sName, (*wp).fSala);
-	//outSWorkPointer ==> 1002,æå››,990.979980
+	//outSWorkPointer ==> 1002,ÀîËÄ,990.979980
 	printf("outSWorkPointer ==> %d,%s,%f\n", wp->nNumb, wp->sName, wp->fSala);
 }
 
-//ç»“æ„ä½“æ•°ç»„
+//½á¹¹ÌåÊı×é
 void intSWorkArray1(SWork* p, int nCount)
 {
 	int i = 0;
 	SWork w;
 	while (i++ < nCount)
 	{
-		w = { 1004 + i, "èµµå…­", 310.54 };
+		w = { 1004 + i, "ÕÔÁù", 310.54 };
 		*p = w;
 
-		//intSWorkArray1 ==> 1004,èµµå…­,310.540009 ä¿®æ”¹æœ‰æ•ˆ
-		printf("intSWorkArray1 ==> %d,%s,%f\n", p[0].nNumb, (*p).sName, p->fSala); //å› ä¸ºp++å·²ç»ç§»ä½äº†,æ‰€ä»¥è¿™é‡Œä¸ç”¨p[i]
+		//intSWorkArray1 ==> 1004,ÕÔÁù,310.540009 ĞŞ¸ÄÓĞĞ§
+		printf("intSWorkArray1 ==> %d,%s,%f\n", p[0].nNumb, (*p).sName, p->fSala); //ÒòÎªp++ÒÑ¾­ÒÆÎ»ÁË,ËùÒÔÕâÀï²»ÓÃp[i]
 
 		p++;
 	}
@@ -77,11 +77,11 @@ void intSWorkArray2(SWork* p, int nCount)
 	SWork w;
 	while (i++ < nCount)
 	{
-		w = { 1005 + i, "å­™ä¸ƒ", 750.20 };
-		p = p + i - 1; //ç§»ä½,å¯ç”¨p++æˆ–++pä»£æ›¿
+		w = { 1005 + i, "ËïÆß", 750.20 };
+		p = p + i - 1; //ÒÆÎ»,¿ÉÓÃp++»ò++p´úÌæ
 		p = &w;
 
-		//intSWorkArray2 ==> 1005,å­™ä¸ƒ,750.200012 ä¿®æ”¹æ— æ•ˆ
+		//intSWorkArray2 ==> 1005,ËïÆß,750.200012 ĞŞ¸ÄÎŞĞ§
 		printf("intSWorkArray2 ==> %d,%s,%f\n", p[0].nNumb, (*p).sName, p->fSala);
 	}
 }
@@ -91,10 +91,10 @@ void intSWorkArray3(SWork* p, int nCount)
 	SWork w;
 	while (++i < nCount)
 	{
-		w = { 1006 + i, "é’±å…«", 910.26 };
+		w = { 1006 + i, "Ç®°Ë", 910.26 };
 		p[i] = w;
 
-		//intSWorkArray3 ==> 1006,é’±å…«,910.260010 ä¿®æ”¹æœ‰æ•ˆ
+		//intSWorkArray3 ==> 1006,Ç®°Ë,910.260010 ĞŞ¸ÄÓĞĞ§
 		printf("intSWorkArray3 ==> %d,%s,%f\n", p[i].nNumb, p[i].sName, p[i].fSala);
 	}
 }
@@ -102,14 +102,14 @@ void outSWorkArray(SWork* p, int nCount)
 {
 	while (nCount--)
 	{
-		//outSWorkArray ==> 1004,èµµå…­,310.540009 ä¸‹æ ‡æ³•æ‰“å°
+		//outSWorkArray ==> 1004,ÕÔÁù,310.540009 ÏÂ±ê·¨´òÓ¡
 		//printf("outSWorkArray ==> %d,%s,%f\n", p[nCount].nNumb, p[nCount].sName, p[nCount].fSala);
 
-		//outSWorkArray ==> 1006,é’±å…«,910.260010 æŒ‡é’ˆæ³•æ‰“å°
+		//outSWorkArray ==> 1006,Ç®°Ë,910.260010 Ö¸Õë·¨´òÓ¡
 		//printf("outSWorkArray ==> %d,%s,%f\n", p[0].nNumb, (*p).sName, p->fSala);
 		//p++;
 
-		//outSWorkArray ==> 1006,é’±å…«,910.260010 æŒ‡é’ˆå‘æ‰“å° (4-nCount)ä»£æ›¿äº†p++ä¸¶++p
+		//outSWorkArray ==> 1006,Ç®°Ë,910.260010 Ö¸Õë·¢´òÓ¡ (4-nCount)´úÌæÁËp++Ø¼++p
 		printf("outSWorkArray ==> %d,%s,%f\n", p[4 - nCount].nNumb, (*(p + 4 - nCount)).sName, (p + 4 - nCount)->fSala);
 	}
 }
@@ -131,16 +131,16 @@ void example0705()
 
 	SWork wa[5];
 
-	//intSWorkArray1 ==> 1005,èµµå…­,310.540009
+	//intSWorkArray1 ==> 1005,ÕÔÁù,310.540009
 	intSWorkArray1(wa, _countof(wa));
-	//intSWorkArray2 ==> 1006,å­™ä¸ƒ,750.200012
+	//intSWorkArray2 ==> 1006,ËïÆß,750.200012
 	intSWorkArray2(wa, _countof(wa));
-	//outSWorkArray ==> 1009,èµµå…­,310.540009
+	//outSWorkArray ==> 1009,ÕÔÁù,310.540009
 	outSWorkArray(wa, _countof(wa));
 
-	//intSWorkArray3 ==> 1006,é’±å…«,910.260010
+	//intSWorkArray3 ==> 1006,Ç®°Ë,910.260010
 	intSWorkArray3(wa, _countof(wa));
-	//outSWorkArray ==> 1010,é’±å…«,910.260010
+	//outSWorkArray ==> 1010,Ç®°Ë,910.260010
 	outSWorkArray(wa, _countof(wa));
 
 }
