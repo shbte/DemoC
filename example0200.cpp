@@ -1,14 +1,14 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*
 	==>
-		һ��cpp�ļ��е�����һ��cpp�ļ��еķ������ӡ�
+		一个cpp文件中调用另一个cpp文件中的方法例子。
 	<==
 */
 int example0200(int i)
 {
 	printf("=====example0200()=====\n");
 
-	printf("������example0200(%d)\n", i);
+	printf("这里是example0200(%d)\n", i);
 	return 0;
 }

@@ -1,12 +1,13 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 /*
 ==>
-	½øÈëifÑ­»·µÄÌõ¼þÎª·Ç0£¬²»µ¥µ¥ÊÇ1¡£ÒÔÏÂÌõ¼þ¶¼¿ÉÒÔ½øÈëÑ­»·
+	è¿›å…¥ifå¾ªçŽ¯çš„æ¡ä»¶ä¸ºéž0ï¼Œä¸å•å•æ˜¯1ã€‚ä»¥ä¸‹æ¡ä»¶éƒ½å¯ä»¥è¿›å…¥å¾ªçŽ¯
 		!NULL
 		-1
 		"abcd"
-		"ÂÀöÎÀÏÊ¦"
+		"C/C++è€å¸ˆ"
+		88.09
 <==
 */
 void example0801()
@@ -14,19 +15,19 @@ void example0801()
 	printf("=====example0801()=====\n");
 
 	if (!NULL)
-		puts("!NULL½øÈëÁËÑ­»·¡£");
+		puts("!NULLè¿›å…¥äº†å¾ªçŽ¯ã€‚");
 	if (-1)
-		puts("-1½øÈëÁËÑ­»·¡£");
+		puts("-1è¿›å…¥äº†å¾ªçŽ¯ã€‚");
 	if ("abcd")
 	{
-		puts("abcd½øÈëÁËÑ­»·¡£");
+		puts("abcdè¿›å…¥äº†å¾ªçŽ¯ã€‚");
 	}
-	if ("ÂÀöÎÀÏÊ¦")
+	if ("C/C++è€å¸ˆ")
 	{
-		puts("ÂÀöÎÀÏÊ¦½øÈëÁËÑ­»·¡£");
+		puts("C/C++è€å¸ˆè¿›å…¥äº†å¾ªçŽ¯ã€‚");
 	}
 	if (88.09)
 	{
-		puts("88.09½øÈëÁËÑ­»·¡£");
+		puts("88.09è¿›å…¥äº†å¾ªçŽ¯ã€‚");
 	}
 }

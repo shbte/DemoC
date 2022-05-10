@@ -1,15 +1,15 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 
 /*
 ==>
-	ָ�����β�ʱ:p��Ч,*p��Ч
-		ָ���β�(p)��������ı�ʵ��
-		ָ���β�ֵ(*p)������ı�ʵ��ֵ
+	指针做形参时:p无效,*p有效
+		指针形参(p)交换不会改变实参
+		指针形参值(*p)交换会改变实参值
 <==
 */
 
 /*
-	�β�ֵ����,ʵ��û�н���
+	形参值交换,实参没有交换
 */
 void swap1(int a, int b)
 {
@@ -19,7 +19,7 @@ void swap1(int a, int b)
 }
 
 /*
-	�β�ֵ����,ʵ��û�н���
+	形参值交换,实参没有交换
 */
 void swap2(int* p1, int* p2)
 {
@@ -29,7 +29,7 @@ void swap2(int* p1, int* p2)
 }
 
 /*
-	�β�ָ��ֵ����,ʵ�ν���
+	形参指向值交换,实参交换
 */
 void swap3(int* p1, int* p2)
 {
@@ -43,19 +43,19 @@ void example0701()
 	printf("=====example0701()=====\n");
 	
 	int x = -1, y = 0;
-	//����ǰ:x=-1,*x=000000D760EFF884,y=0,*y=000000D760EFF8A4
-	printf("����ǰ:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
+	//交换前:x=-1,*x=000000D760EFF884,y=0,*y=000000D760EFF8A4
+	printf("交换前:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
 
 	swap1(x, y);
-	//��һ�ν�����:x=-1,*x=000000D760EFF884,y=0,*y=000000D760EFF8A4
-	printf("��һ�ν�����:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
+	//第一次交换后:x=-1,*x=000000D760EFF884,y=0,*y=000000D760EFF8A4
+	printf("第一次交换后:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
 
 	swap2(&x, &y);
-	//�ڶ��ν�����:x=-1,*x=000000D760EFF884,y=0,*y=000000D760EFF8A4
-	printf("�ڶ��ν�����:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
+	//第二次交换后:x=-1,*x=000000D760EFF884,y=0,*y=000000D760EFF8A4
+	printf("第二次交换后:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
 
 	swap3(&x, &y);
-	//�����ν�����:x=0,*x=000000D760EFF884,y=-1,*y=000000D760EFF8A4
-	printf("�����ν�����:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
+	//第三次交换后:x=0,*x=000000D760EFF884,y=-1,*y=000000D760EFF8A4
+	printf("第三次交换后:x=%d,*x=%p,y=%d,*y=%p\n", x, &x, y, &y);
 	
 }

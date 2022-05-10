@@ -157,7 +157,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="note.txt">
+    <Text Include="noteC.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

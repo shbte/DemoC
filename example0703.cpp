@@ -1,27 +1,27 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 /*
 ==>
-	½á¹¹ÌåµÄ¶¨Òå,¶¨ÒåÊ±²¢Ã»ÓÐÉêÇëÄÚ´æ¿Õ¼ä(±äÁ¿ÔÚ¶¨ÒåÊ±¾Í»áÉêÇëÄÚ´æ¿Õ¼ä),½á¹¹ÌåÔÚ¹¹½¨¶ÔÏóÊ±²Å»á½øÐÐÄÚ´æ¿Õ¼äÉêÇë
-	typedef¹Ø¼ü×ÖÎª½á¹¹ÌåÖØÐÂÃüÃû:
-		µÚÒ»ÖÖ:ÖØÃüÃûºÍ¶¨ÒåÍ¬Ê±½øÐÐ
-		µÚ¶þÖÖ:ÏÈ¶¨Òå½á¹¹Ìå,ÔÙÖØÐÂÎª½á¹¹ÌåÃüÃû
-	½á¹¹Ìå¶ÔÏó¸³ÖµµÄÈýÖÖ·½Ê½:Ê¹ÓÃ¸³Öµ·ûºÅ(=)¡¢µ÷ÓÃmemcpyº¯ÊýØ¼Öð¸ö³ÉÔ±±äÁ¿µÄÊý¾Ý¸´ÖÆ
-		×Ö·û´®Êý×é²»ÄÜÖ±½ÓÊ¹ÓÃ¸³Öµ·ûºÅ½øÐÐÊý¾Ý¸³Öµ,ÐèÒªÊ¹ÓÃstrcpyº¯Êý½øÐÐ¸³Öµ
+	ç»“æž„ä½“çš„å®šä¹‰,å®šä¹‰æ—¶å¹¶æ²¡æœ‰ç”³è¯·å†…å­˜ç©ºé—´(å˜é‡åœ¨å®šä¹‰æ—¶å°±ä¼šç”³è¯·å†…å­˜ç©ºé—´),ç»“æž„ä½“åœ¨æž„å»ºå¯¹è±¡æ—¶æ‰ä¼šè¿›è¡Œå†…å­˜ç©ºé—´ç”³è¯·
+	typedefå…³é”®å­—ä¸ºç»“æž„ä½“é‡æ–°å‘½å:
+		ç¬¬ä¸€ç§:é‡å‘½åå’Œå®šä¹‰åŒæ—¶è¿›è¡Œ
+		ç¬¬äºŒç§:å…ˆå®šä¹‰ç»“æž„ä½“,å†é‡æ–°ä¸ºç»“æž„ä½“å‘½å
+	ç»“æž„ä½“å¯¹è±¡èµ‹å€¼çš„ä¸‰ç§æ–¹å¼:ä½¿ç”¨èµ‹å€¼ç¬¦å·(=)ã€è°ƒç”¨memcpyå‡½æ•°ä¸¶é€ä¸ªæˆå‘˜å˜é‡çš„æ•°æ®å¤åˆ¶
+		å­—ç¬¦ä¸²æ•°ç»„ä¸èƒ½ç›´æŽ¥ä½¿ç”¨èµ‹å€¼ç¬¦å·è¿›è¡Œæ•°æ®èµ‹å€¼,éœ€è¦ä½¿ç”¨strcpyå‡½æ•°è¿›è¡Œèµ‹å€¼
 <==
 */
 
-//½á¹¹ÌåµÄ¶¨Òå,¶¨ÒåÊ±²¢Ã»ÓÐÉêÇëÄÚ´æ¿Õ¼ä(±äÁ¿ÔÚ¶¨ÒåÊ±¾Í»áÉêÇëÄÚ´æ¿Õ¼ä),½á¹¹ÌåÔÚ¹¹½¨¶ÔÏóÊ±²Å»á½øÐÐÄÚ´æ¿Õ¼äÉêÇë
+//ç»“æž„ä½“çš„å®šä¹‰,å®šä¹‰æ—¶å¹¶æ²¡æœ‰ç”³è¯·å†…å­˜ç©ºé—´(å˜é‡åœ¨å®šä¹‰æ—¶å°±ä¼šç”³è¯·å†…å­˜ç©ºé—´),ç»“æž„ä½“åœ¨æž„å»ºå¯¹è±¡æ—¶æ‰ä¼šè¿›è¡Œå†…å­˜ç©ºé—´ç”³è¯·
 struct SWork1
 {
-	int iNumber; //¹¤ºÅ
-	char sName[20]; //ÐÕÃû
-	float fSala; //¹¤×Ê
+	int iNumber; //å·¥å·
+	char sName[20]; //å§“å
+	float fSala; //å·¥èµ„
 };
 
-//typedef¹Ø¼ü×ÖÎª½á¹¹ÌåÖØÐÂÃüÃû
-//µÚÒ»ÖÖ:ÖØÃüÃûºÍ¶¨ÒåÍ¬Ê±½øÐÐ
+//typedefå…³é”®å­—ä¸ºç»“æž„ä½“é‡æ–°å‘½å
+//ç¬¬ä¸€ç§:é‡å‘½åå’Œå®šä¹‰åŒæ—¶è¿›è¡Œ
 typedef struct SWork2
 {
 	int iNumber;
@@ -30,7 +30,7 @@ typedef struct SWork2
 
 }SWork3;
 
-//µÚ¶þÖÖ:ÏÈ¶¨Òå½á¹¹Ìå,ÔÙÖØÐÂÎª½á¹¹ÌåÃüÃû
+//ç¬¬äºŒç§:å…ˆå®šä¹‰ç»“æž„ä½“,å†é‡æ–°ä¸ºç»“æž„ä½“å‘½å
 struct SWork4
 {
 	int iNumber;
@@ -44,39 +44,39 @@ void example0703()
 	printf("=====example0703()=====\n");
 
 	SWork1 w1 = {};
-	SWork2 w2 = { 8001, "ÕÅÈý", 9000 };
+	SWork2 w2 = { 8001, "å¼ ä¸‰", 9000 };
 
-	//¹¤ºÅ:0,ÐÕÃû:,¹¤×Ê:0.000000
-	printf("SWork1 ==> ¹¤ºÅ:%d,ÐÕÃû:%s,¹¤×Ê:%f\n", w1.iNumber, w1.sName, w1.fSala);
-	//¹¤ºÅ:8001,ÐÕÃû:ÕÅÈý,¹¤×Ê:9000.000000
-	printf("SWork2 ==> ¹¤ºÅ:%d,ÐÕÃû:%s,¹¤×Ê:%f\n", w2.iNumber, w2.sName, w2.fSala);
+	//å·¥å·:0,å§“å:,å·¥èµ„:0.000000
+	printf("SWork1 ==> å·¥å·:%d,å§“å:%s,å·¥èµ„:%f\n", w1.iNumber, w1.sName, w1.fSala);
+	//å·¥å·:8001,å§“å:å¼ ä¸‰,å·¥èµ„:9000.000000
+	printf("SWork2 ==> å·¥å·:%d,å§“å:%s,å·¥èµ„:%f\n", w2.iNumber, w2.sName, w2.fSala);
 	
-	//½á¹¹Ìå¶ÔÏó¸³ÖµµÄÈýÖÖ·½Ê½:Ê¹ÓÃ¸³Öµ·ûºÅ¡¢µ÷ÓÃmemcpyº¯ÊýºÍÖð¸ö³ÉÔ±±äÁ¿µÄÊý¾Ý¸´ÖÆ
+	//ç»“æž„ä½“å¯¹è±¡èµ‹å€¼çš„ä¸‰ç§æ–¹å¼:ä½¿ç”¨èµ‹å€¼ç¬¦å·ã€è°ƒç”¨memcpyå‡½æ•°å’Œé€ä¸ªæˆå‘˜å˜é‡çš„æ•°æ®å¤åˆ¶
 
-	//Ê¹ÓÃ¸³Öµ·ûºÅ
+	//ä½¿ç”¨èµ‹å€¼ç¬¦å·
 	SWork3 w3 = { 9889.8 };
 
-	//SWork3 ==> ¹¤ºÅ:9889,ÐÕÃû:,¹¤×Ê:0.000000
-	printf("SWork3 ==> ¹¤ºÅ:%d,ÐÕÃû:%s,¹¤×Ê:%f\n", w3.iNumber, w3.sName, w3.fSala);
+	//SWork3 ==> å·¥å·:9889,å§“å:,å·¥èµ„:0.000000
+	printf("SWork3 ==> å·¥å·:%d,å§“å:%s,å·¥èµ„:%f\n", w3.iNumber, w3.sName, w3.fSala);
 
-	//w3(SWork3)ÊÇw2(SWork2)µÄÖØÃüÃû,ËùÒÔw2¿ÉÒÔ¸øw3Ö±½Ó¸³Öµ
+	//w3(SWork3)æ˜¯w2(SWork2)çš„é‡å‘½å,æ‰€ä»¥w2å¯ä»¥ç»™w3ç›´æŽ¥èµ‹å€¼
 	w3 = w2;
-	//w1 = w2; ½á¹¹Ìå¶¨Òå²»Í¬,²»ÄÜÖ±½Ó¸³Öµ
-	//(SWork2)w1 = w2; ½á¹¹Ìå¶¨Òå²»Í¬,²»ÄÜÇ¿ÖÆ×ª»»
+	//w1 = w2; ç»“æž„ä½“å®šä¹‰ä¸åŒ,ä¸èƒ½ç›´æŽ¥èµ‹å€¼
+	//(SWork2)w1 = w2; ç»“æž„ä½“å®šä¹‰ä¸åŒ,ä¸èƒ½å¼ºåˆ¶è½¬æ¢
 
-	//SWork3 ==> ¹¤ºÅ:8001,ÐÕÃû:ÕÅÈý,¹¤×Ê:9000.000000
-	printf("SWork3 ==> ¹¤ºÅ:%d,ÐÕÃû:%s,¹¤×Ê:%f\n", w3.iNumber, w3.sName, w3.fSala);
+	//SWork3 ==> å·¥å·:8001,å§“å:å¼ ä¸‰,å·¥èµ„:9000.000000
+	printf("SWork3 ==> å·¥å·:%d,å§“å:%s,å·¥èµ„:%f\n", w3.iNumber, w3.sName, w3.fSala);
 
-	//Öð¸ö³ÉÔ±±äÁ¿µÄÊý¾Ý¸³Öµ
+	//é€ä¸ªæˆå‘˜å˜é‡çš„æ•°æ®èµ‹å€¼
 	w3.iNumber = w2.iNumber;
-	//w3.sName = w2.sName; ×Ö·û´®Êý×é²»ÄÜÖ±½ÓÊ¹ÓÃ¸³Öµ·ûºÅ½øÐÐÊý¾Ý¸³Öµ,ÐèÒªÊ¹ÓÃstrcpyº¯Êý½øÐÐ¸³Öµ
+	//w3.sName = w2.sName; å­—ç¬¦ä¸²æ•°ç»„ä¸èƒ½ç›´æŽ¥ä½¿ç”¨èµ‹å€¼ç¬¦å·è¿›è¡Œæ•°æ®èµ‹å€¼,éœ€è¦ä½¿ç”¨strcpyå‡½æ•°è¿›è¡Œèµ‹å€¼
 	strcpy_s(w3.sName, w2.sName);
 	w3.fSala = 7000.89;
-	//SWork3 ==> ¹¤ºÅ:8001,ÐÕÃû:ÕÅÈý,¹¤×Ê:7000.890137
-	printf("SWork3 ==> ¹¤ºÅ:%d,ÐÕÃû:%s,¹¤×Ê:%f\n", w3.iNumber, w3.sName, w3.fSala);
+	//SWork3 ==> å·¥å·:8001,å§“å:å¼ ä¸‰,å·¥èµ„:7000.890137
+	printf("SWork3 ==> å·¥å·:%d,å§“å:%s,å·¥èµ„:%f\n", w3.iNumber, w3.sName, w3.fSala);
 
-	//µ÷ÓÃmemcpyº¯Êý½øÐÐ¸³Öµ
+	//è°ƒç”¨memcpyå‡½æ•°è¿›è¡Œèµ‹å€¼
 	memcpy(&w3, &w2, sizeof(w2));
-	//SWork3 ==> ¹¤ºÅ:8001,ÐÕÃû:ÕÅÈý,¹¤×Ê:9000.000000
-	printf("SWork3 ==> ¹¤ºÅ:%d,ÐÕÃû:%s,¹¤×Ê:%f\n", w3.iNumber, w3.sName, w3.fSala);
+	//SWork3 ==> å·¥å·:8001,å§“å:å¼ ä¸‰,å·¥èµ„:9000.000000
+	printf("SWork3 ==> å·¥å·:%d,å§“å:%s,å·¥èµ„:%f\n", w3.iNumber, w3.sName, w3.fSala);
 }

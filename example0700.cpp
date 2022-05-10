@@ -1,35 +1,35 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 
 void InputArray(int* p, int nLen)
-{//¶ÔÀ´Ô´Êı×éĞ´Èë
+{//å¯¹æ¥æºæ•°ç»„å†™å…¥
 	int i = 0;
-	printf("ÇëÊäÈë%d¸öÕûÊı£º", nLen);
+	printf("è¯·è¾“å…¥%dä¸ªæ•´æ•°ï¼š", nLen);
 	while (i < nLen)
-		scanf_s("%d", &p[i++]);//Ê¹ÓÃÁËÊı×éÏÂ±ê·¨,Ïàµ±ÓÚpÎªÊı×é,&p[i]¶ÔÊı×éÈ¡Ö·
+		scanf_s("%d", &p[i++]);//ä½¿ç”¨äº†æ•°ç»„ä¸‹æ ‡æ³•,ç›¸å½“äºpä¸ºæ•°ç»„,&p[i]å¯¹æ•°ç»„å–å€
 }
 
 void InputPoniter(int* p, int nLen)
-{//¶ÔÀ´Ô´Êı×éĞ´Èë
+{//å¯¹æ¥æºæ•°ç»„å†™å…¥
 	int i = 0;
-	printf("ÇëÊäÈë%d¸öÕûÊı£º", nLen);
+	printf("è¯·è¾“å…¥%dä¸ªæ•´æ•°ï¼š", nLen);
 	while (i++ < nLen)
-		scanf_s("%d", p++);//Ê¹ÓÃÁËÖ¸Õë·¨,pÎªµØÖ·
+		scanf_s("%d", p++);//ä½¿ç”¨äº†æŒ‡é’ˆæ³•,pä¸ºåœ°å€
 }
 
 int CalcalArray(int* p, int nLen)
-{//¶ÔÀ´Ô´Êı×é¶ÁÈ¡
+{//å¯¹æ¥æºæ•°ç»„è¯»å–
 	int nSum = 0;
 	while (nLen--)
-		nSum += p[nLen];//ÏÂ±ê·¨
+		nSum += p[nLen];//ä¸‹æ ‡æ³•
 	return nSum;
 }
 
 int CalcalPoniter(int* p, int nLen)
-{//¶ÔÀ´Ô´Êı×é¶ÁÈ¡
+{//å¯¹æ¥æºæ•°ç»„è¯»å–
 	int nSum = 0;
 	while (nLen--)
-		nSum += *p++;//Ö¸Õë·¨
+		nSum += *p++;//æŒ‡é’ˆæ³•
 	return nSum;
 }
 
@@ -41,5 +41,5 @@ void example0700()
 	//InputArray(a, _countof(a));
 	InputPoniter(a, _countof(a));
 	n = CalcalArray(a, _countof(a));
-	printf("ÄãÊäÈëµÄÊı×Ö×ÜºÍÎª£º%d\n", n);
+	printf("ä½ è¾“å…¥çš„æ•°å­—æ€»å’Œä¸ºï¼š%d\n", n);
 }
