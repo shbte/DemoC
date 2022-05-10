@@ -9,4 +9,8 @@ void example08()
 	puts("");
 	void example0801();
 	example0801();
+
+	puts("");
+	void example0802();
+	example0802();
 }
