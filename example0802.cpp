@@ -81,16 +81,24 @@ void Remove(const char* rmName)
 	Team* pTmp = pHead;
 	//遍历指针节点指针的上一个节点指针
 	Team* pLast = NULL;
+
 	int rmCount = 0;
 
 	while (pTmp)
 	{
+
+		//被删数据节点的指针变量
+		Team* frTeam = NULL;
+
 		//strcmp函数的比较字符串相等时，返回0
 		if (!(strcmp(rmName, pTmp->mem.sName)))
 		{
+
+			frTeam = pTmp;
 			printf("该链表数据节点将被移除=>编号：%s,姓名：%s,工资：%0.2f\n", pTmp->mem.sNumber, pTmp->mem.sName, pTmp->mem.fSala);
+
 			if (pLast)
-				pLast->pNext = pTmp->pNext;	//删除数据节点
+				pLast->pNext = pTmp->pNext;	//删除数据节点不为第一个时，删除数据节点
 			else
 				pHead = pTmp->pNext;	//删除数据节点为第一个时，删除/更新头节点
 
@@ -105,7 +113,10 @@ void Remove(const char* rmName)
 		pLast = pTmp;
 		//更新遍历节点指针指向下一个节点
 		pTmp = pTmp->pNext;
-		
+
+		//释放删除的数据节点
+		if (!frTeam)
+			free(frTeam);
 	}
 
 	printf("链表移除了%d个数据节点。\n", rmCount);
@@ -141,7 +152,7 @@ void example0802()
 	Members stu5 = { "10005", "王五", 36854.96 };
 	Members stu6 = { "10006", "钱六", 45812.21 };
 
-	//例：先插头
+	//例：先插头(注释下面)
 	AddToHead(stu4);
 	AddToHead(stu5);
 	AddToTail(stu3);
@@ -149,7 +160,7 @@ void example0802()
 	AddToHead(stu6);
 	AddToTail(stu1);
 
-	//例：先插尾
+	//例：先插尾(注释上面)
 	AddToTail(stu4);
 	AddToTail(stu5);
 	AddToHead(stu3);
@@ -159,16 +170,21 @@ void example0802()
 
 	Out();
 
+	//删除节点在中
 	Remove("张三");
 	Out();
 
+	//删除节点在尾
 	Remove("钱六");
 	Out();
 
+	//删除节点在头
 	Remove("赵一");
 	Out();
 
+	//删除后头插
 	AddToHead(stu1);
+	//删除后尾插
 	AddToTail(stu6);
 	Out();
 }
