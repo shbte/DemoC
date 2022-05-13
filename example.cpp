@@ -28,4 +28,7 @@ void example()
 
 	void example09();
 	example09();
+
+	void example10();
+	example10();
 }

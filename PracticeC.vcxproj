@@ -67,6 +67,8 @@
     <ClCompile Include="example0802.cpp" />
     <ClCompile Include="example09.cpp" />
     <ClCompile Include="example0900.cpp" />
+    <ClCompile Include="example10.cpp" />
+    <ClCompile Include="example1000.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

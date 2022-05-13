@@ -44,9 +44,9 @@ void example0100()
 	//scanf_s("%c", &f, 1);
 
 	//在%c面前加\n、空格、\t等字符和进行输入的字符绑定，就可以进行输入了
-	char c = NULL;
-	scanf_s("1234%c", &c, 1);
-	printf("c=%c\n", c);
+	char c1 = NULL;
+	scanf_s("1234%c", &c1, 1);
+	printf("c=%c\n", c1);
 	
 
 	printf("短整型:%hd，整型:%d，长整型:%ld，单精度型:%g，双精度型:%g，字符类型：%c\n", a, b, c, d, e, f);
