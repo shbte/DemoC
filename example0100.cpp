@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
 /*
 	C语言数据类型：基本类型、结构类型、指针类型、空类型(void)

@@ -1,4 +1,4 @@
-﻿// 解除C标准安全警告
+// 解除C标准安全警告
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>

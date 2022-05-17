@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 /*
 	==>
 		打印类型变量的大小(字节数)：sizeof(类型变量)

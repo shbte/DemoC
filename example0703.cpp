@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 /*
@@ -54,7 +54,7 @@ void example0703()
 	//结构体对象赋值的三种方式:使用赋值符号、调用memcpy函数和逐个成员变量的数据复制
 
 	//使用赋值符号
-	SWork3 w3 = { 9889.8 };
+	SWork3 w3 = { 0 };
 
 	//SWork3 ==> 工号:9889,姓名:,工资:0.000000
 	printf("SWork3 ==> 工号:%d,姓名:%s,工资:%f\n", w3.iNumber, w3.sName, w3.fSala);

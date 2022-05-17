@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
 /*
 	利用2/3查看浮点类型的有效位数
