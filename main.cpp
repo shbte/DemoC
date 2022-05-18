@@ -1,6 +1,6 @@
-#include "include/example.h"
-
 #include <stdio.h>
+
+#include "example/include/example.h"
 
 void callWork() {
     void dayWork();
