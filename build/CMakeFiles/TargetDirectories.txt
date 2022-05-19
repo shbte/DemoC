@@ -1,0 +1,9 @@
+/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles/cmake_main.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/example/CMakeFiles/example.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/example/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/example/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/work/CMakeFiles/work.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/work/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/VSCode/PracticeC/build/work/CMakeFiles/rebuild_cache.dir

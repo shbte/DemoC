@@ -1,4 +1,4 @@
-#include "../include/example0100.h"
+#include "example0100.h"
 
 #include <stdio.h>
 

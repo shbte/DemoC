@@ -18,7 +18,7 @@ int main() {
     // puts和printf的区别：puts会自动换行，只能输出字符没有格式控制。
     puts("Hello C!");
 
-    //callWork();
+    // callWork();
     callExample();
 
     return 0;

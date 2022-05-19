@@ -1,5 +1,5 @@
-#include "../include/example0401.h"
-#include "../include/example0403.h"
+#include "example0401.h"
+#include "example0403.h"
 
 #include <stdio.h>
 

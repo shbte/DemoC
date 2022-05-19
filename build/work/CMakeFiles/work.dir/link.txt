@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwork.a CMakeFiles/work.dir/src/day02Work.cpp.o CMakeFiles/work.dir/src/day07Work.cpp.o CMakeFiles/work.dir/src/day08Work.cpp.o CMakeFiles/work.dir/src/day09Work.cpp.o
+/usr/bin/ranlib libwork.a

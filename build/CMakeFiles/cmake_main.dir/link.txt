@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/cmake_main.dir/main.cpp.o CMakeFiles/cmake_main.dir/example/example.cpp.o CMakeFiles/cmake_main.dir/work/dayWork.cpp.o -o ../bin/cmake_main  example/libexample.a work/libwork.a 
