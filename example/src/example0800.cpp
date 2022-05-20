@@ -94,7 +94,7 @@ void example0800()
     printf("=====example0800()=====\n");
 
     char cArray[] = "abcdeC/C++老师...";
-    char fileName[] = "/home/ubuntu/Desktop/VSCode/PracticeC/File/myFile.txt";
+    char fileName[] = "./File/myFile.txt";
     char fileMode[] = "a";
 
     readFile(fileName);

@@ -73,519 +73,519 @@ example/CMakeFiles/example.dir/src/example01.cpp.o: example/CMakeFiles/example.d
 example/CMakeFiles/example.dir/src/example01.cpp.o: ../example/src/example01.cpp
 example/CMakeFiles/example.dir/src/example01.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/src/example01.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example01.cpp.o -MF CMakeFiles/example.dir/src/example01.cpp.o.d -o CMakeFiles/example.dir/src/example01.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example01.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example01.cpp.o -MF CMakeFiles/example.dir/src/example01.cpp.o.d -o CMakeFiles/example.dir/src/example01.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example01.cpp
 
 example/CMakeFiles/example.dir/src/example01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example01.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example01.cpp > CMakeFiles/example.dir/src/example01.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example01.cpp > CMakeFiles/example.dir/src/example01.cpp.i
 
 example/CMakeFiles/example.dir/src/example01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example01.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example01.cpp -o CMakeFiles/example.dir/src/example01.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example01.cpp -o CMakeFiles/example.dir/src/example01.cpp.s
 
 example/CMakeFiles/example.dir/src/example0100.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0100.cpp.o: ../example/src/example0100.cpp
 example/CMakeFiles/example.dir/src/example0100.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/CMakeFiles/example.dir/src/example0100.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0100.cpp.o -MF CMakeFiles/example.dir/src/example0100.cpp.o.d -o CMakeFiles/example.dir/src/example0100.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0100.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0100.cpp.o -MF CMakeFiles/example.dir/src/example0100.cpp.o.d -o CMakeFiles/example.dir/src/example0100.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0100.cpp
 
 example/CMakeFiles/example.dir/src/example0100.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0100.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0100.cpp > CMakeFiles/example.dir/src/example0100.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0100.cpp > CMakeFiles/example.dir/src/example0100.cpp.i
 
 example/CMakeFiles/example.dir/src/example0100.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0100.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0100.cpp -o CMakeFiles/example.dir/src/example0100.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0100.cpp -o CMakeFiles/example.dir/src/example0100.cpp.s
 
 example/CMakeFiles/example.dir/src/example02.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example02.cpp.o: ../example/src/example02.cpp
 example/CMakeFiles/example.dir/src/example02.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object example/CMakeFiles/example.dir/src/example02.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example02.cpp.o -MF CMakeFiles/example.dir/src/example02.cpp.o.d -o CMakeFiles/example.dir/src/example02.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example02.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example02.cpp.o -MF CMakeFiles/example.dir/src/example02.cpp.o.d -o CMakeFiles/example.dir/src/example02.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example02.cpp
 
 example/CMakeFiles/example.dir/src/example02.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example02.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example02.cpp > CMakeFiles/example.dir/src/example02.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example02.cpp > CMakeFiles/example.dir/src/example02.cpp.i
 
 example/CMakeFiles/example.dir/src/example02.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example02.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example02.cpp -o CMakeFiles/example.dir/src/example02.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example02.cpp -o CMakeFiles/example.dir/src/example02.cpp.s
 
 example/CMakeFiles/example.dir/src/example0200.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0200.cpp.o: ../example/src/example0200.cpp
 example/CMakeFiles/example.dir/src/example0200.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object example/CMakeFiles/example.dir/src/example0200.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0200.cpp.o -MF CMakeFiles/example.dir/src/example0200.cpp.o.d -o CMakeFiles/example.dir/src/example0200.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0200.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0200.cpp.o -MF CMakeFiles/example.dir/src/example0200.cpp.o.d -o CMakeFiles/example.dir/src/example0200.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0200.cpp
 
 example/CMakeFiles/example.dir/src/example0200.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0200.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0200.cpp > CMakeFiles/example.dir/src/example0200.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0200.cpp > CMakeFiles/example.dir/src/example0200.cpp.i
 
 example/CMakeFiles/example.dir/src/example0200.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0200.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0200.cpp -o CMakeFiles/example.dir/src/example0200.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0200.cpp -o CMakeFiles/example.dir/src/example0200.cpp.s
 
 example/CMakeFiles/example.dir/src/example03.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example03.cpp.o: ../example/src/example03.cpp
 example/CMakeFiles/example.dir/src/example03.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object example/CMakeFiles/example.dir/src/example03.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example03.cpp.o -MF CMakeFiles/example.dir/src/example03.cpp.o.d -o CMakeFiles/example.dir/src/example03.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example03.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example03.cpp.o -MF CMakeFiles/example.dir/src/example03.cpp.o.d -o CMakeFiles/example.dir/src/example03.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example03.cpp
 
 example/CMakeFiles/example.dir/src/example03.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example03.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example03.cpp > CMakeFiles/example.dir/src/example03.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example03.cpp > CMakeFiles/example.dir/src/example03.cpp.i
 
 example/CMakeFiles/example.dir/src/example03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example03.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example03.cpp -o CMakeFiles/example.dir/src/example03.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example03.cpp -o CMakeFiles/example.dir/src/example03.cpp.s
 
 example/CMakeFiles/example.dir/src/example0300.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0300.cpp.o: ../example/src/example0300.cpp
 example/CMakeFiles/example.dir/src/example0300.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object example/CMakeFiles/example.dir/src/example0300.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0300.cpp.o -MF CMakeFiles/example.dir/src/example0300.cpp.o.d -o CMakeFiles/example.dir/src/example0300.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0300.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0300.cpp.o -MF CMakeFiles/example.dir/src/example0300.cpp.o.d -o CMakeFiles/example.dir/src/example0300.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0300.cpp
 
 example/CMakeFiles/example.dir/src/example0300.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0300.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0300.cpp > CMakeFiles/example.dir/src/example0300.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0300.cpp > CMakeFiles/example.dir/src/example0300.cpp.i
 
 example/CMakeFiles/example.dir/src/example0300.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0300.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0300.cpp -o CMakeFiles/example.dir/src/example0300.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0300.cpp -o CMakeFiles/example.dir/src/example0300.cpp.s
 
 example/CMakeFiles/example.dir/src/example04.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example04.cpp.o: ../example/src/example04.cpp
 example/CMakeFiles/example.dir/src/example04.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object example/CMakeFiles/example.dir/src/example04.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example04.cpp.o -MF CMakeFiles/example.dir/src/example04.cpp.o.d -o CMakeFiles/example.dir/src/example04.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example04.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example04.cpp.o -MF CMakeFiles/example.dir/src/example04.cpp.o.d -o CMakeFiles/example.dir/src/example04.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example04.cpp
 
 example/CMakeFiles/example.dir/src/example04.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example04.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example04.cpp > CMakeFiles/example.dir/src/example04.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example04.cpp > CMakeFiles/example.dir/src/example04.cpp.i
 
 example/CMakeFiles/example.dir/src/example04.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example04.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example04.cpp -o CMakeFiles/example.dir/src/example04.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example04.cpp -o CMakeFiles/example.dir/src/example04.cpp.s
 
 example/CMakeFiles/example.dir/src/example0400.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0400.cpp.o: ../example/src/example0400.cpp
 example/CMakeFiles/example.dir/src/example0400.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object example/CMakeFiles/example.dir/src/example0400.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0400.cpp.o -MF CMakeFiles/example.dir/src/example0400.cpp.o.d -o CMakeFiles/example.dir/src/example0400.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0400.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0400.cpp.o -MF CMakeFiles/example.dir/src/example0400.cpp.o.d -o CMakeFiles/example.dir/src/example0400.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0400.cpp
 
 example/CMakeFiles/example.dir/src/example0400.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0400.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0400.cpp > CMakeFiles/example.dir/src/example0400.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0400.cpp > CMakeFiles/example.dir/src/example0400.cpp.i
 
 example/CMakeFiles/example.dir/src/example0400.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0400.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0400.cpp -o CMakeFiles/example.dir/src/example0400.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0400.cpp -o CMakeFiles/example.dir/src/example0400.cpp.s
 
 example/CMakeFiles/example.dir/src/example0401.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0401.cpp.o: ../example/src/example0401.cpp
 example/CMakeFiles/example.dir/src/example0401.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object example/CMakeFiles/example.dir/src/example0401.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0401.cpp.o -MF CMakeFiles/example.dir/src/example0401.cpp.o.d -o CMakeFiles/example.dir/src/example0401.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0401.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0401.cpp.o -MF CMakeFiles/example.dir/src/example0401.cpp.o.d -o CMakeFiles/example.dir/src/example0401.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0401.cpp
 
 example/CMakeFiles/example.dir/src/example0401.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0401.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0401.cpp > CMakeFiles/example.dir/src/example0401.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0401.cpp > CMakeFiles/example.dir/src/example0401.cpp.i
 
 example/CMakeFiles/example.dir/src/example0401.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0401.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0401.cpp -o CMakeFiles/example.dir/src/example0401.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0401.cpp -o CMakeFiles/example.dir/src/example0401.cpp.s
 
 example/CMakeFiles/example.dir/src/example0402.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0402.cpp.o: ../example/src/example0402.cpp
 example/CMakeFiles/example.dir/src/example0402.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object example/CMakeFiles/example.dir/src/example0402.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0402.cpp.o -MF CMakeFiles/example.dir/src/example0402.cpp.o.d -o CMakeFiles/example.dir/src/example0402.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0402.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0402.cpp.o -MF CMakeFiles/example.dir/src/example0402.cpp.o.d -o CMakeFiles/example.dir/src/example0402.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0402.cpp
 
 example/CMakeFiles/example.dir/src/example0402.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0402.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0402.cpp > CMakeFiles/example.dir/src/example0402.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0402.cpp > CMakeFiles/example.dir/src/example0402.cpp.i
 
 example/CMakeFiles/example.dir/src/example0402.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0402.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0402.cpp -o CMakeFiles/example.dir/src/example0402.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0402.cpp -o CMakeFiles/example.dir/src/example0402.cpp.s
 
 example/CMakeFiles/example.dir/src/example0403.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0403.cpp.o: ../example/src/example0403.cpp
 example/CMakeFiles/example.dir/src/example0403.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object example/CMakeFiles/example.dir/src/example0403.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0403.cpp.o -MF CMakeFiles/example.dir/src/example0403.cpp.o.d -o CMakeFiles/example.dir/src/example0403.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0403.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0403.cpp.o -MF CMakeFiles/example.dir/src/example0403.cpp.o.d -o CMakeFiles/example.dir/src/example0403.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0403.cpp
 
 example/CMakeFiles/example.dir/src/example0403.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0403.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0403.cpp > CMakeFiles/example.dir/src/example0403.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0403.cpp > CMakeFiles/example.dir/src/example0403.cpp.i
 
 example/CMakeFiles/example.dir/src/example0403.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0403.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0403.cpp -o CMakeFiles/example.dir/src/example0403.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0403.cpp -o CMakeFiles/example.dir/src/example0403.cpp.s
 
 example/CMakeFiles/example.dir/src/example0404.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0404.cpp.o: ../example/src/example0404.cpp
 example/CMakeFiles/example.dir/src/example0404.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object example/CMakeFiles/example.dir/src/example0404.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0404.cpp.o -MF CMakeFiles/example.dir/src/example0404.cpp.o.d -o CMakeFiles/example.dir/src/example0404.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0404.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0404.cpp.o -MF CMakeFiles/example.dir/src/example0404.cpp.o.d -o CMakeFiles/example.dir/src/example0404.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0404.cpp
 
 example/CMakeFiles/example.dir/src/example0404.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0404.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0404.cpp > CMakeFiles/example.dir/src/example0404.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0404.cpp > CMakeFiles/example.dir/src/example0404.cpp.i
 
 example/CMakeFiles/example.dir/src/example0404.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0404.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0404.cpp -o CMakeFiles/example.dir/src/example0404.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0404.cpp -o CMakeFiles/example.dir/src/example0404.cpp.s
 
 example/CMakeFiles/example.dir/src/example0405.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0405.cpp.o: ../example/src/example0405.cpp
 example/CMakeFiles/example.dir/src/example0405.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object example/CMakeFiles/example.dir/src/example0405.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0405.cpp.o -MF CMakeFiles/example.dir/src/example0405.cpp.o.d -o CMakeFiles/example.dir/src/example0405.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0405.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0405.cpp.o -MF CMakeFiles/example.dir/src/example0405.cpp.o.d -o CMakeFiles/example.dir/src/example0405.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0405.cpp
 
 example/CMakeFiles/example.dir/src/example0405.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0405.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0405.cpp > CMakeFiles/example.dir/src/example0405.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0405.cpp > CMakeFiles/example.dir/src/example0405.cpp.i
 
 example/CMakeFiles/example.dir/src/example0405.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0405.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0405.cpp -o CMakeFiles/example.dir/src/example0405.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0405.cpp -o CMakeFiles/example.dir/src/example0405.cpp.s
 
 example/CMakeFiles/example.dir/src/example0406.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0406.cpp.o: ../example/src/example0406.cpp
 example/CMakeFiles/example.dir/src/example0406.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object example/CMakeFiles/example.dir/src/example0406.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0406.cpp.o -MF CMakeFiles/example.dir/src/example0406.cpp.o.d -o CMakeFiles/example.dir/src/example0406.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0406.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0406.cpp.o -MF CMakeFiles/example.dir/src/example0406.cpp.o.d -o CMakeFiles/example.dir/src/example0406.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0406.cpp
 
 example/CMakeFiles/example.dir/src/example0406.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0406.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0406.cpp > CMakeFiles/example.dir/src/example0406.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0406.cpp > CMakeFiles/example.dir/src/example0406.cpp.i
 
 example/CMakeFiles/example.dir/src/example0406.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0406.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0406.cpp -o CMakeFiles/example.dir/src/example0406.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0406.cpp -o CMakeFiles/example.dir/src/example0406.cpp.s
 
 example/CMakeFiles/example.dir/src/example05.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example05.cpp.o: ../example/src/example05.cpp
 example/CMakeFiles/example.dir/src/example05.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object example/CMakeFiles/example.dir/src/example05.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example05.cpp.o -MF CMakeFiles/example.dir/src/example05.cpp.o.d -o CMakeFiles/example.dir/src/example05.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example05.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example05.cpp.o -MF CMakeFiles/example.dir/src/example05.cpp.o.d -o CMakeFiles/example.dir/src/example05.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example05.cpp
 
 example/CMakeFiles/example.dir/src/example05.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example05.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example05.cpp > CMakeFiles/example.dir/src/example05.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example05.cpp > CMakeFiles/example.dir/src/example05.cpp.i
 
 example/CMakeFiles/example.dir/src/example05.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example05.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example05.cpp -o CMakeFiles/example.dir/src/example05.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example05.cpp -o CMakeFiles/example.dir/src/example05.cpp.s
 
 example/CMakeFiles/example.dir/src/example0500.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0500.cpp.o: ../example/src/example0500.cpp
 example/CMakeFiles/example.dir/src/example0500.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object example/CMakeFiles/example.dir/src/example0500.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0500.cpp.o -MF CMakeFiles/example.dir/src/example0500.cpp.o.d -o CMakeFiles/example.dir/src/example0500.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0500.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0500.cpp.o -MF CMakeFiles/example.dir/src/example0500.cpp.o.d -o CMakeFiles/example.dir/src/example0500.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0500.cpp
 
 example/CMakeFiles/example.dir/src/example0500.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0500.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0500.cpp > CMakeFiles/example.dir/src/example0500.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0500.cpp > CMakeFiles/example.dir/src/example0500.cpp.i
 
 example/CMakeFiles/example.dir/src/example0500.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0500.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0500.cpp -o CMakeFiles/example.dir/src/example0500.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0500.cpp -o CMakeFiles/example.dir/src/example0500.cpp.s
 
 example/CMakeFiles/example.dir/src/example0501.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0501.cpp.o: ../example/src/example0501.cpp
 example/CMakeFiles/example.dir/src/example0501.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object example/CMakeFiles/example.dir/src/example0501.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0501.cpp.o -MF CMakeFiles/example.dir/src/example0501.cpp.o.d -o CMakeFiles/example.dir/src/example0501.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0501.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0501.cpp.o -MF CMakeFiles/example.dir/src/example0501.cpp.o.d -o CMakeFiles/example.dir/src/example0501.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0501.cpp
 
 example/CMakeFiles/example.dir/src/example0501.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0501.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0501.cpp > CMakeFiles/example.dir/src/example0501.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0501.cpp > CMakeFiles/example.dir/src/example0501.cpp.i
 
 example/CMakeFiles/example.dir/src/example0501.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0501.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0501.cpp -o CMakeFiles/example.dir/src/example0501.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0501.cpp -o CMakeFiles/example.dir/src/example0501.cpp.s
 
 example/CMakeFiles/example.dir/src/example06.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example06.cpp.o: ../example/src/example06.cpp
 example/CMakeFiles/example.dir/src/example06.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object example/CMakeFiles/example.dir/src/example06.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example06.cpp.o -MF CMakeFiles/example.dir/src/example06.cpp.o.d -o CMakeFiles/example.dir/src/example06.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example06.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example06.cpp.o -MF CMakeFiles/example.dir/src/example06.cpp.o.d -o CMakeFiles/example.dir/src/example06.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example06.cpp
 
 example/CMakeFiles/example.dir/src/example06.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example06.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example06.cpp > CMakeFiles/example.dir/src/example06.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example06.cpp > CMakeFiles/example.dir/src/example06.cpp.i
 
 example/CMakeFiles/example.dir/src/example06.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example06.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example06.cpp -o CMakeFiles/example.dir/src/example06.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example06.cpp -o CMakeFiles/example.dir/src/example06.cpp.s
 
 example/CMakeFiles/example.dir/src/example0600.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0600.cpp.o: ../example/src/example0600.cpp
 example/CMakeFiles/example.dir/src/example0600.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object example/CMakeFiles/example.dir/src/example0600.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0600.cpp.o -MF CMakeFiles/example.dir/src/example0600.cpp.o.d -o CMakeFiles/example.dir/src/example0600.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0600.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0600.cpp.o -MF CMakeFiles/example.dir/src/example0600.cpp.o.d -o CMakeFiles/example.dir/src/example0600.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0600.cpp
 
 example/CMakeFiles/example.dir/src/example0600.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0600.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0600.cpp > CMakeFiles/example.dir/src/example0600.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0600.cpp > CMakeFiles/example.dir/src/example0600.cpp.i
 
 example/CMakeFiles/example.dir/src/example0600.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0600.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0600.cpp -o CMakeFiles/example.dir/src/example0600.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0600.cpp -o CMakeFiles/example.dir/src/example0600.cpp.s
 
 example/CMakeFiles/example.dir/src/example0601.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0601.cpp.o: ../example/src/example0601.cpp
 example/CMakeFiles/example.dir/src/example0601.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object example/CMakeFiles/example.dir/src/example0601.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0601.cpp.o -MF CMakeFiles/example.dir/src/example0601.cpp.o.d -o CMakeFiles/example.dir/src/example0601.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0601.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0601.cpp.o -MF CMakeFiles/example.dir/src/example0601.cpp.o.d -o CMakeFiles/example.dir/src/example0601.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0601.cpp
 
 example/CMakeFiles/example.dir/src/example0601.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0601.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0601.cpp > CMakeFiles/example.dir/src/example0601.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0601.cpp > CMakeFiles/example.dir/src/example0601.cpp.i
 
 example/CMakeFiles/example.dir/src/example0601.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0601.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0601.cpp -o CMakeFiles/example.dir/src/example0601.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0601.cpp -o CMakeFiles/example.dir/src/example0601.cpp.s
 
 example/CMakeFiles/example.dir/src/example0602.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0602.cpp.o: ../example/src/example0602.cpp
 example/CMakeFiles/example.dir/src/example0602.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object example/CMakeFiles/example.dir/src/example0602.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0602.cpp.o -MF CMakeFiles/example.dir/src/example0602.cpp.o.d -o CMakeFiles/example.dir/src/example0602.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0602.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0602.cpp.o -MF CMakeFiles/example.dir/src/example0602.cpp.o.d -o CMakeFiles/example.dir/src/example0602.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0602.cpp
 
 example/CMakeFiles/example.dir/src/example0602.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0602.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0602.cpp > CMakeFiles/example.dir/src/example0602.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0602.cpp > CMakeFiles/example.dir/src/example0602.cpp.i
 
 example/CMakeFiles/example.dir/src/example0602.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0602.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0602.cpp -o CMakeFiles/example.dir/src/example0602.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0602.cpp -o CMakeFiles/example.dir/src/example0602.cpp.s
 
 example/CMakeFiles/example.dir/src/example0603.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0603.cpp.o: ../example/src/example0603.cpp
 example/CMakeFiles/example.dir/src/example0603.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object example/CMakeFiles/example.dir/src/example0603.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0603.cpp.o -MF CMakeFiles/example.dir/src/example0603.cpp.o.d -o CMakeFiles/example.dir/src/example0603.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0603.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0603.cpp.o -MF CMakeFiles/example.dir/src/example0603.cpp.o.d -o CMakeFiles/example.dir/src/example0603.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0603.cpp
 
 example/CMakeFiles/example.dir/src/example0603.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0603.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0603.cpp > CMakeFiles/example.dir/src/example0603.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0603.cpp > CMakeFiles/example.dir/src/example0603.cpp.i
 
 example/CMakeFiles/example.dir/src/example0603.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0603.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0603.cpp -o CMakeFiles/example.dir/src/example0603.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0603.cpp -o CMakeFiles/example.dir/src/example0603.cpp.s
 
 example/CMakeFiles/example.dir/src/example07.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example07.cpp.o: ../example/src/example07.cpp
 example/CMakeFiles/example.dir/src/example07.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object example/CMakeFiles/example.dir/src/example07.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example07.cpp.o -MF CMakeFiles/example.dir/src/example07.cpp.o.d -o CMakeFiles/example.dir/src/example07.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example07.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example07.cpp.o -MF CMakeFiles/example.dir/src/example07.cpp.o.d -o CMakeFiles/example.dir/src/example07.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example07.cpp
 
 example/CMakeFiles/example.dir/src/example07.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example07.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example07.cpp > CMakeFiles/example.dir/src/example07.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example07.cpp > CMakeFiles/example.dir/src/example07.cpp.i
 
 example/CMakeFiles/example.dir/src/example07.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example07.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example07.cpp -o CMakeFiles/example.dir/src/example07.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example07.cpp -o CMakeFiles/example.dir/src/example07.cpp.s
 
 example/CMakeFiles/example.dir/src/example0700.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0700.cpp.o: ../example/src/example0700.cpp
 example/CMakeFiles/example.dir/src/example0700.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object example/CMakeFiles/example.dir/src/example0700.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0700.cpp.o -MF CMakeFiles/example.dir/src/example0700.cpp.o.d -o CMakeFiles/example.dir/src/example0700.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0700.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0700.cpp.o -MF CMakeFiles/example.dir/src/example0700.cpp.o.d -o CMakeFiles/example.dir/src/example0700.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0700.cpp
 
 example/CMakeFiles/example.dir/src/example0700.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0700.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0700.cpp > CMakeFiles/example.dir/src/example0700.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0700.cpp > CMakeFiles/example.dir/src/example0700.cpp.i
 
 example/CMakeFiles/example.dir/src/example0700.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0700.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0700.cpp -o CMakeFiles/example.dir/src/example0700.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0700.cpp -o CMakeFiles/example.dir/src/example0700.cpp.s
 
 example/CMakeFiles/example.dir/src/example0701.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0701.cpp.o: ../example/src/example0701.cpp
 example/CMakeFiles/example.dir/src/example0701.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object example/CMakeFiles/example.dir/src/example0701.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0701.cpp.o -MF CMakeFiles/example.dir/src/example0701.cpp.o.d -o CMakeFiles/example.dir/src/example0701.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0701.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0701.cpp.o -MF CMakeFiles/example.dir/src/example0701.cpp.o.d -o CMakeFiles/example.dir/src/example0701.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0701.cpp
 
 example/CMakeFiles/example.dir/src/example0701.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0701.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0701.cpp > CMakeFiles/example.dir/src/example0701.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0701.cpp > CMakeFiles/example.dir/src/example0701.cpp.i
 
 example/CMakeFiles/example.dir/src/example0701.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0701.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0701.cpp -o CMakeFiles/example.dir/src/example0701.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0701.cpp -o CMakeFiles/example.dir/src/example0701.cpp.s
 
 example/CMakeFiles/example.dir/src/example0702.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0702.cpp.o: ../example/src/example0702.cpp
 example/CMakeFiles/example.dir/src/example0702.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object example/CMakeFiles/example.dir/src/example0702.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0702.cpp.o -MF CMakeFiles/example.dir/src/example0702.cpp.o.d -o CMakeFiles/example.dir/src/example0702.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0702.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0702.cpp.o -MF CMakeFiles/example.dir/src/example0702.cpp.o.d -o CMakeFiles/example.dir/src/example0702.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0702.cpp
 
 example/CMakeFiles/example.dir/src/example0702.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0702.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0702.cpp > CMakeFiles/example.dir/src/example0702.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0702.cpp > CMakeFiles/example.dir/src/example0702.cpp.i
 
 example/CMakeFiles/example.dir/src/example0702.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0702.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0702.cpp -o CMakeFiles/example.dir/src/example0702.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0702.cpp -o CMakeFiles/example.dir/src/example0702.cpp.s
 
 example/CMakeFiles/example.dir/src/example0703.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0703.cpp.o: ../example/src/example0703.cpp
 example/CMakeFiles/example.dir/src/example0703.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object example/CMakeFiles/example.dir/src/example0703.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0703.cpp.o -MF CMakeFiles/example.dir/src/example0703.cpp.o.d -o CMakeFiles/example.dir/src/example0703.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0703.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0703.cpp.o -MF CMakeFiles/example.dir/src/example0703.cpp.o.d -o CMakeFiles/example.dir/src/example0703.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0703.cpp
 
 example/CMakeFiles/example.dir/src/example0703.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0703.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0703.cpp > CMakeFiles/example.dir/src/example0703.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0703.cpp > CMakeFiles/example.dir/src/example0703.cpp.i
 
 example/CMakeFiles/example.dir/src/example0703.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0703.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0703.cpp -o CMakeFiles/example.dir/src/example0703.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0703.cpp -o CMakeFiles/example.dir/src/example0703.cpp.s
 
 example/CMakeFiles/example.dir/src/example0704.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0704.cpp.o: ../example/src/example0704.cpp
 example/CMakeFiles/example.dir/src/example0704.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object example/CMakeFiles/example.dir/src/example0704.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0704.cpp.o -MF CMakeFiles/example.dir/src/example0704.cpp.o.d -o CMakeFiles/example.dir/src/example0704.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0704.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0704.cpp.o -MF CMakeFiles/example.dir/src/example0704.cpp.o.d -o CMakeFiles/example.dir/src/example0704.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0704.cpp
 
 example/CMakeFiles/example.dir/src/example0704.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0704.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0704.cpp > CMakeFiles/example.dir/src/example0704.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0704.cpp > CMakeFiles/example.dir/src/example0704.cpp.i
 
 example/CMakeFiles/example.dir/src/example0704.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0704.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0704.cpp -o CMakeFiles/example.dir/src/example0704.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0704.cpp -o CMakeFiles/example.dir/src/example0704.cpp.s
 
 example/CMakeFiles/example.dir/src/example0705.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0705.cpp.o: ../example/src/example0705.cpp
 example/CMakeFiles/example.dir/src/example0705.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object example/CMakeFiles/example.dir/src/example0705.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0705.cpp.o -MF CMakeFiles/example.dir/src/example0705.cpp.o.d -o CMakeFiles/example.dir/src/example0705.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0705.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0705.cpp.o -MF CMakeFiles/example.dir/src/example0705.cpp.o.d -o CMakeFiles/example.dir/src/example0705.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0705.cpp
 
 example/CMakeFiles/example.dir/src/example0705.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0705.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0705.cpp > CMakeFiles/example.dir/src/example0705.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0705.cpp > CMakeFiles/example.dir/src/example0705.cpp.i
 
 example/CMakeFiles/example.dir/src/example0705.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0705.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0705.cpp -o CMakeFiles/example.dir/src/example0705.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0705.cpp -o CMakeFiles/example.dir/src/example0705.cpp.s
 
 example/CMakeFiles/example.dir/src/example08.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example08.cpp.o: ../example/src/example08.cpp
 example/CMakeFiles/example.dir/src/example08.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object example/CMakeFiles/example.dir/src/example08.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example08.cpp.o -MF CMakeFiles/example.dir/src/example08.cpp.o.d -o CMakeFiles/example.dir/src/example08.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example08.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example08.cpp.o -MF CMakeFiles/example.dir/src/example08.cpp.o.d -o CMakeFiles/example.dir/src/example08.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example08.cpp
 
 example/CMakeFiles/example.dir/src/example08.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example08.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example08.cpp > CMakeFiles/example.dir/src/example08.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example08.cpp > CMakeFiles/example.dir/src/example08.cpp.i
 
 example/CMakeFiles/example.dir/src/example08.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example08.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example08.cpp -o CMakeFiles/example.dir/src/example08.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example08.cpp -o CMakeFiles/example.dir/src/example08.cpp.s
 
 example/CMakeFiles/example.dir/src/example0800.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0800.cpp.o: ../example/src/example0800.cpp
 example/CMakeFiles/example.dir/src/example0800.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object example/CMakeFiles/example.dir/src/example0800.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0800.cpp.o -MF CMakeFiles/example.dir/src/example0800.cpp.o.d -o CMakeFiles/example.dir/src/example0800.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0800.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0800.cpp.o -MF CMakeFiles/example.dir/src/example0800.cpp.o.d -o CMakeFiles/example.dir/src/example0800.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0800.cpp
 
 example/CMakeFiles/example.dir/src/example0800.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0800.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0800.cpp > CMakeFiles/example.dir/src/example0800.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0800.cpp > CMakeFiles/example.dir/src/example0800.cpp.i
 
 example/CMakeFiles/example.dir/src/example0800.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0800.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0800.cpp -o CMakeFiles/example.dir/src/example0800.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0800.cpp -o CMakeFiles/example.dir/src/example0800.cpp.s
 
 example/CMakeFiles/example.dir/src/example0801.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0801.cpp.o: ../example/src/example0801.cpp
 example/CMakeFiles/example.dir/src/example0801.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object example/CMakeFiles/example.dir/src/example0801.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0801.cpp.o -MF CMakeFiles/example.dir/src/example0801.cpp.o.d -o CMakeFiles/example.dir/src/example0801.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0801.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0801.cpp.o -MF CMakeFiles/example.dir/src/example0801.cpp.o.d -o CMakeFiles/example.dir/src/example0801.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0801.cpp
 
 example/CMakeFiles/example.dir/src/example0801.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0801.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0801.cpp > CMakeFiles/example.dir/src/example0801.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0801.cpp > CMakeFiles/example.dir/src/example0801.cpp.i
 
 example/CMakeFiles/example.dir/src/example0801.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0801.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0801.cpp -o CMakeFiles/example.dir/src/example0801.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0801.cpp -o CMakeFiles/example.dir/src/example0801.cpp.s
 
 example/CMakeFiles/example.dir/src/example0802.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0802.cpp.o: ../example/src/example0802.cpp
 example/CMakeFiles/example.dir/src/example0802.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object example/CMakeFiles/example.dir/src/example0802.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0802.cpp.o -MF CMakeFiles/example.dir/src/example0802.cpp.o.d -o CMakeFiles/example.dir/src/example0802.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0802.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0802.cpp.o -MF CMakeFiles/example.dir/src/example0802.cpp.o.d -o CMakeFiles/example.dir/src/example0802.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0802.cpp
 
 example/CMakeFiles/example.dir/src/example0802.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0802.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0802.cpp > CMakeFiles/example.dir/src/example0802.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0802.cpp > CMakeFiles/example.dir/src/example0802.cpp.i
 
 example/CMakeFiles/example.dir/src/example0802.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0802.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0802.cpp -o CMakeFiles/example.dir/src/example0802.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0802.cpp -o CMakeFiles/example.dir/src/example0802.cpp.s
 
 example/CMakeFiles/example.dir/src/example09.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example09.cpp.o: ../example/src/example09.cpp
 example/CMakeFiles/example.dir/src/example09.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object example/CMakeFiles/example.dir/src/example09.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example09.cpp.o -MF CMakeFiles/example.dir/src/example09.cpp.o.d -o CMakeFiles/example.dir/src/example09.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example09.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example09.cpp.o -MF CMakeFiles/example.dir/src/example09.cpp.o.d -o CMakeFiles/example.dir/src/example09.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example09.cpp
 
 example/CMakeFiles/example.dir/src/example09.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example09.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example09.cpp > CMakeFiles/example.dir/src/example09.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example09.cpp > CMakeFiles/example.dir/src/example09.cpp.i
 
 example/CMakeFiles/example.dir/src/example09.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example09.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example09.cpp -o CMakeFiles/example.dir/src/example09.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example09.cpp -o CMakeFiles/example.dir/src/example09.cpp.s
 
 example/CMakeFiles/example.dir/src/example0900.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example0900.cpp.o: ../example/src/example0900.cpp
 example/CMakeFiles/example.dir/src/example0900.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object example/CMakeFiles/example.dir/src/example0900.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0900.cpp.o -MF CMakeFiles/example.dir/src/example0900.cpp.o.d -o CMakeFiles/example.dir/src/example0900.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0900.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example0900.cpp.o -MF CMakeFiles/example.dir/src/example0900.cpp.o.d -o CMakeFiles/example.dir/src/example0900.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0900.cpp
 
 example/CMakeFiles/example.dir/src/example0900.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example0900.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0900.cpp > CMakeFiles/example.dir/src/example0900.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0900.cpp > CMakeFiles/example.dir/src/example0900.cpp.i
 
 example/CMakeFiles/example.dir/src/example0900.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example0900.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0900.cpp -o CMakeFiles/example.dir/src/example0900.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example0900.cpp -o CMakeFiles/example.dir/src/example0900.cpp.s
 
 example/CMakeFiles/example.dir/src/example10.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example10.cpp.o: ../example/src/example10.cpp
 example/CMakeFiles/example.dir/src/example10.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object example/CMakeFiles/example.dir/src/example10.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example10.cpp.o -MF CMakeFiles/example.dir/src/example10.cpp.o.d -o CMakeFiles/example.dir/src/example10.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example10.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example10.cpp.o -MF CMakeFiles/example.dir/src/example10.cpp.o.d -o CMakeFiles/example.dir/src/example10.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example10.cpp
 
 example/CMakeFiles/example.dir/src/example10.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example10.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example10.cpp > CMakeFiles/example.dir/src/example10.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example10.cpp > CMakeFiles/example.dir/src/example10.cpp.i
 
 example/CMakeFiles/example.dir/src/example10.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example10.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example10.cpp -o CMakeFiles/example.dir/src/example10.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example10.cpp -o CMakeFiles/example.dir/src/example10.cpp.s
 
 example/CMakeFiles/example.dir/src/example1000.cpp.o: example/CMakeFiles/example.dir/flags.make
 example/CMakeFiles/example.dir/src/example1000.cpp.o: ../example/src/example1000.cpp
 example/CMakeFiles/example.dir/src/example1000.cpp.o: example/CMakeFiles/example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object example/CMakeFiles/example.dir/src/example1000.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example1000.cpp.o -MF CMakeFiles/example.dir/src/example1000.cpp.o.d -o CMakeFiles/example.dir/src/example1000.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example1000.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/example.dir/src/example1000.cpp.o -MF CMakeFiles/example.dir/src/example1000.cpp.o.d -o CMakeFiles/example.dir/src/example1000.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example1000.cpp
 
 example/CMakeFiles/example.dir/src/example1000.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/example1000.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example1000.cpp > CMakeFiles/example.dir/src/example1000.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example1000.cpp > CMakeFiles/example.dir/src/example1000.cpp.i
 
 example/CMakeFiles/example.dir/src/example1000.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/example1000.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example1000.cpp -o CMakeFiles/example.dir/src/example1000.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/example && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/src/example1000.cpp -o CMakeFiles/example.dir/src/example1000.cpp.s
 
 # Object files for target example
 example_OBJECTS = \

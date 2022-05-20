@@ -73,43 +73,43 @@ CMakeFiles/cmake_main.dir/main.cpp.o: CMakeFiles/cmake_main.dir/flags.make
 CMakeFiles/cmake_main.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cmake_main.dir/main.cpp.o: CMakeFiles/cmake_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmake_main.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmake_main.dir/main.cpp.o -MF CMakeFiles/cmake_main.dir/main.cpp.o.d -o CMakeFiles/cmake_main.dir/main.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmake_main.dir/main.cpp.o -MF CMakeFiles/cmake_main.dir/main.cpp.o.d -o CMakeFiles/cmake_main.dir/main.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/main.cpp
 
 CMakeFiles/cmake_main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake_main.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/main.cpp > CMakeFiles/cmake_main.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/main.cpp > CMakeFiles/cmake_main.dir/main.cpp.i
 
 CMakeFiles/cmake_main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake_main.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/main.cpp -o CMakeFiles/cmake_main.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/main.cpp -o CMakeFiles/cmake_main.dir/main.cpp.s
 
 CMakeFiles/cmake_main.dir/example/example.cpp.o: CMakeFiles/cmake_main.dir/flags.make
 CMakeFiles/cmake_main.dir/example/example.cpp.o: ../example/example.cpp
 CMakeFiles/cmake_main.dir/example/example.cpp.o: CMakeFiles/cmake_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmake_main.dir/example/example.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmake_main.dir/example/example.cpp.o -MF CMakeFiles/cmake_main.dir/example/example.cpp.o.d -o CMakeFiles/cmake_main.dir/example/example.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/example.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmake_main.dir/example/example.cpp.o -MF CMakeFiles/cmake_main.dir/example/example.cpp.o.d -o CMakeFiles/cmake_main.dir/example/example.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/example/example.cpp
 
 CMakeFiles/cmake_main.dir/example/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake_main.dir/example/example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/example.cpp > CMakeFiles/cmake_main.dir/example/example.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/example/example.cpp > CMakeFiles/cmake_main.dir/example/example.cpp.i
 
 CMakeFiles/cmake_main.dir/example/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake_main.dir/example/example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/example.cpp -o CMakeFiles/cmake_main.dir/example/example.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/example/example.cpp -o CMakeFiles/cmake_main.dir/example/example.cpp.s
 
 CMakeFiles/cmake_main.dir/work/dayWork.cpp.o: CMakeFiles/cmake_main.dir/flags.make
 CMakeFiles/cmake_main.dir/work/dayWork.cpp.o: ../work/dayWork.cpp
 CMakeFiles/cmake_main.dir/work/dayWork.cpp.o: CMakeFiles/cmake_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cmake_main.dir/work/dayWork.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmake_main.dir/work/dayWork.cpp.o -MF CMakeFiles/cmake_main.dir/work/dayWork.cpp.o.d -o CMakeFiles/cmake_main.dir/work/dayWork.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/dayWork.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmake_main.dir/work/dayWork.cpp.o -MF CMakeFiles/cmake_main.dir/work/dayWork.cpp.o.d -o CMakeFiles/cmake_main.dir/work/dayWork.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/dayWork.cpp
 
 CMakeFiles/cmake_main.dir/work/dayWork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake_main.dir/work/dayWork.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/dayWork.cpp > CMakeFiles/cmake_main.dir/work/dayWork.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/dayWork.cpp > CMakeFiles/cmake_main.dir/work/dayWork.cpp.i
 
 CMakeFiles/cmake_main.dir/work/dayWork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake_main.dir/work/dayWork.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/dayWork.cpp -o CMakeFiles/cmake_main.dir/work/dayWork.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/dayWork.cpp -o CMakeFiles/cmake_main.dir/work/dayWork.cpp.s
 
 # Object files for target cmake_main
 cmake_main_OBJECTS = \

@@ -73,57 +73,57 @@ work/CMakeFiles/work.dir/src/day02Work.cpp.o: work/CMakeFiles/work.dir/flags.mak
 work/CMakeFiles/work.dir/src/day02Work.cpp.o: ../work/src/day02Work.cpp
 work/CMakeFiles/work.dir/src/day02Work.cpp.o: work/CMakeFiles/work.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object work/CMakeFiles/work.dir/src/day02Work.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day02Work.cpp.o -MF CMakeFiles/work.dir/src/day02Work.cpp.o.d -o CMakeFiles/work.dir/src/day02Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day02Work.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day02Work.cpp.o -MF CMakeFiles/work.dir/src/day02Work.cpp.o.d -o CMakeFiles/work.dir/src/day02Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day02Work.cpp
 
 work/CMakeFiles/work.dir/src/day02Work.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/work.dir/src/day02Work.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day02Work.cpp > CMakeFiles/work.dir/src/day02Work.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day02Work.cpp > CMakeFiles/work.dir/src/day02Work.cpp.i
 
 work/CMakeFiles/work.dir/src/day02Work.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/work.dir/src/day02Work.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day02Work.cpp -o CMakeFiles/work.dir/src/day02Work.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day02Work.cpp -o CMakeFiles/work.dir/src/day02Work.cpp.s
 
 work/CMakeFiles/work.dir/src/day07Work.cpp.o: work/CMakeFiles/work.dir/flags.make
 work/CMakeFiles/work.dir/src/day07Work.cpp.o: ../work/src/day07Work.cpp
 work/CMakeFiles/work.dir/src/day07Work.cpp.o: work/CMakeFiles/work.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object work/CMakeFiles/work.dir/src/day07Work.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day07Work.cpp.o -MF CMakeFiles/work.dir/src/day07Work.cpp.o.d -o CMakeFiles/work.dir/src/day07Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day07Work.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day07Work.cpp.o -MF CMakeFiles/work.dir/src/day07Work.cpp.o.d -o CMakeFiles/work.dir/src/day07Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day07Work.cpp
 
 work/CMakeFiles/work.dir/src/day07Work.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/work.dir/src/day07Work.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day07Work.cpp > CMakeFiles/work.dir/src/day07Work.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day07Work.cpp > CMakeFiles/work.dir/src/day07Work.cpp.i
 
 work/CMakeFiles/work.dir/src/day07Work.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/work.dir/src/day07Work.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day07Work.cpp -o CMakeFiles/work.dir/src/day07Work.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day07Work.cpp -o CMakeFiles/work.dir/src/day07Work.cpp.s
 
 work/CMakeFiles/work.dir/src/day08Work.cpp.o: work/CMakeFiles/work.dir/flags.make
 work/CMakeFiles/work.dir/src/day08Work.cpp.o: ../work/src/day08Work.cpp
 work/CMakeFiles/work.dir/src/day08Work.cpp.o: work/CMakeFiles/work.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object work/CMakeFiles/work.dir/src/day08Work.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day08Work.cpp.o -MF CMakeFiles/work.dir/src/day08Work.cpp.o.d -o CMakeFiles/work.dir/src/day08Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day08Work.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day08Work.cpp.o -MF CMakeFiles/work.dir/src/day08Work.cpp.o.d -o CMakeFiles/work.dir/src/day08Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day08Work.cpp
 
 work/CMakeFiles/work.dir/src/day08Work.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/work.dir/src/day08Work.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day08Work.cpp > CMakeFiles/work.dir/src/day08Work.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day08Work.cpp > CMakeFiles/work.dir/src/day08Work.cpp.i
 
 work/CMakeFiles/work.dir/src/day08Work.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/work.dir/src/day08Work.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day08Work.cpp -o CMakeFiles/work.dir/src/day08Work.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day08Work.cpp -o CMakeFiles/work.dir/src/day08Work.cpp.s
 
 work/CMakeFiles/work.dir/src/day09Work.cpp.o: work/CMakeFiles/work.dir/flags.make
 work/CMakeFiles/work.dir/src/day09Work.cpp.o: ../work/src/day09Work.cpp
 work/CMakeFiles/work.dir/src/day09Work.cpp.o: work/CMakeFiles/work.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/VSCode/PracticeC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object work/CMakeFiles/work.dir/src/day09Work.cpp.o"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day09Work.cpp.o -MF CMakeFiles/work.dir/src/day09Work.cpp.o.d -o CMakeFiles/work.dir/src/day09Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day09Work.cpp
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT work/CMakeFiles/work.dir/src/day09Work.cpp.o -MF CMakeFiles/work.dir/src/day09Work.cpp.o.d -o CMakeFiles/work.dir/src/day09Work.cpp.o -c /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day09Work.cpp
 
 work/CMakeFiles/work.dir/src/day09Work.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/work.dir/src/day09Work.cpp.i"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day09Work.cpp > CMakeFiles/work.dir/src/day09Work.cpp.i
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day09Work.cpp > CMakeFiles/work.dir/src/day09Work.cpp.i
 
 work/CMakeFiles/work.dir/src/day09Work.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/work.dir/src/day09Work.cpp.s"
-	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day09Work.cpp -o CMakeFiles/work.dir/src/day09Work.cpp.s
+	cd /home/ubuntu/Desktop/VSCode/PracticeC/build/work && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/VSCode/PracticeC/work/src/day09Work.cpp -o CMakeFiles/work.dir/src/day09Work.cpp.s
 
 # Object files for target work
 work_OBJECTS = \
