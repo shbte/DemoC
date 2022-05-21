@@ -18,7 +18,7 @@ g++ *.cpp example/*.cpp example/src/*.cpp work/*.cpp work/src/*.cpp -Iinclude -o
 2、可以对cmake制定参数，build是Makefile生成路径 (1 || 2)
     cmake -S . -B build (cmake -Bbuild)
     make -C build
-3、执行
+3、执行 ( && 3)
     ./bin/cmake_main
 ~~~
 
